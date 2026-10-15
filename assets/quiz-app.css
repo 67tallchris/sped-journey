@@ -1,0 +1,56 @@
+/* Scoped port of the standalone NES 601 quiz app look (testing area). */
+
+.quiz-page{
+  --bg:#f5f6f8; --card:#fff; --ink:#1c2330; --muted:#66707f; --line:#dfe3ea;
+  --accent:#2f6fed; --accent-soft:#e8f0ff; --good:#177245; --good-soft:#e6f5ec;
+  --bad:#b3261e; --bad-soft:#fdeceb; --radius:12px;
+}
+.quiz-page .overall{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--muted);margin:10px 0 4px}
+.quiz-page .bar{flex:1;height:8px;background:#eceff4;border-radius:99px;overflow:hidden}
+.quiz-page .bar > div{height:100%;width:0;background:var(--accent);border-radius:99px;transition:width .25s}
+.quiz-page .batches{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 8px}
+.quiz-page .batch-btn{display:flex;flex-direction:column;align-items:center;gap:1px;min-width:86px;padding:8px 10px;
+  background:#fff;border:1px solid var(--line);border-radius:10px;cursor:pointer;color:var(--ink);font:inherit;font-size:13px}
+.quiz-page .batch-btn:hover{border-color:#b9c4d6}
+.quiz-page .batch-btn .bmeta{color:var(--muted);font-size:11px}
+.quiz-page .batch-btn .bscore{font-weight:700;font-size:12px}
+.quiz-page .batch-btn.active{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft)}
+.quiz-page .batch-btn.partial{background:#fffdf3}
+.quiz-page .batch-btn.graded .bscore{color:var(--good)}
+.quiz-page .batch-btn.graded.low .bscore{color:var(--bad)}
+.quiz-page .test-btn{align-items:flex-start;min-width:230px;text-align:left}
+.quiz-page .test-btn b{font-size:13.5px}
+.quiz-page .test-btn.locked{cursor:pointer;background:#fffdf5;border-style:dashed}
+.quiz-page .test-btn.locked .bmeta{color:#8a6d1a}
+.quiz-page .sethead{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin:14px 0 4px}
+.quiz-page .sethead h2{margin:0;font-size:18px}
+.quiz-page .sethead .range{color:var(--muted);font-size:13px}
+.quiz-page .qcard{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;margin:12px 0;box-shadow:none}
+.quiz-page .qcard.correct{border-left:5px solid var(--good)}
+.quiz-page .qcard.wrong{border-left:5px solid var(--bad)}
+.quiz-page .qnum{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.quiz-page .stem{margin:6px 0 12px;font-weight:600}
+.quiz-page .opts{display:grid;gap:8px}
+.quiz-page .opt{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:9px;padding:9px 11px;cursor:pointer;background:#fff}
+.quiz-page .opt:hover{border-color:#b9c4d6}
+.quiz-page .opt input{margin-top:4px;accent-color:var(--accent)}
+.quiz-page .opt .letter{font-weight:700;min-width:16px}
+.quiz-page .opt.correct{border-color:var(--good);background:var(--good-soft)}
+.quiz-page .opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.quiz-page .opt.disabled{cursor:default}
+.quiz-page .verdict{margin-top:12px;font-size:14px;font-weight:600}
+.quiz-page .verdict.ok{color:var(--good)}
+.quiz-page .verdict.bad{color:var(--bad)}
+.quiz-page .explain{margin-top:6px;color:var(--muted);font-size:13.5px}
+.quiz-page .summary{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:var(--radius);
+  padding:14px 18px;margin:14px 0;font-size:15px}
+.quiz-page .summary .score{font-size:22px;font-weight:800}
+.quiz-page .summary .pct{color:var(--muted)}
+.quiz-page .actions{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 14px}
+.quiz-page button.btn{font:inherit;padding:10px 16px;border-radius:10px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer}
+.quiz-page button.btn:hover{filter:brightness(1.06)}
+.quiz-page button.btn.secondary{background:#fff;color:var(--ink);border-color:var(--line)}
+.quiz-page button.btn:disabled{opacity:.45;cursor:not-allowed}
+.quiz-page .resetbar{margin:0 0 24px;text-align:right}
+.quiz-page .linkbtn{background:none;border:none;color:var(--muted);text-decoration:underline;cursor:pointer;font:inherit;font-size:12px}
+@media (max-width:560px){ .quiz-page .batch-btn{min-width:72px;padding:7px 8px} .quiz-page .test-btn{min-width:100%} }

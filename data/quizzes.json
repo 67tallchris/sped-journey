@@ -2,6 +2,16 @@
   "updated": "2026-10-15",
   "tests": [
     {
+      "id": "nes601-full",
+      "title": "NES/AEPA Special Education 601",
+      "subtitle": "80 questions · full practice bank (private)",
+      "private": true,
+      "endpoint": "/api/quiz/nes601",
+      "source": "https://www.aepa.nesinc.com/Content/Docs/AZSG_FLD022_Expanded.pdf",
+      "sourceLabel": "AEPA Field 22 study guide (AZSG_FLD022)",
+      "note": "Full 80-question bank parsed from the official AEPA Field 22 study guide. Locked to the signed-in owner because the source material is © Pearson."
+    },
+    {
       "id": "socioculturalism",
       "title": "Socioculturalism",
       "subtitle": "30 questions · learning theory",
@@ -17,7 +27,7 @@
       "file": "data/quizzes/sped-demo.json",
       "source": "https://www.aepa.nesinc.com/Content/Docs/AZSG_FLD022_Expanded.pdf",
       "sourceLabel": "AEPA Field 22 Special Education study guide",
-      "note": "Original sample questions demonstrating the AEPA Field 22 practice app. The full 80-question bank is kept private."
+      "note": "Original sample questions demonstrating the practice app. The full 80-question bank is available when signed in."
     }
   ]
 }

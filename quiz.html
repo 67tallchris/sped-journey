@@ -6,6 +6,7 @@
 <title>Practice Quiz — Chris Porter</title>
 <meta name="description" content="An interactive demo of the practice-test app built while preparing for the NES/AEPA Special Education exam.">
 <link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/quiz-app.css">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
 <body>
@@ -25,17 +26,23 @@
 </header>
 
 <main class="wrap">
-  <section>
-    <div class="section-head">
-      <h2>Testing area</h2>
-      <p>Practice tests I build while studying. Each test is served in sets of 10, graded immediately,
-      with the correct answers and explanations.</p>
-    </div>
-    <div id="testPicker" class="batches" aria-label="Choose a test"></div>
-    <div id="quizMeta"></div>
-    <div id="setNav" class="batches" aria-label="Choose a set"></div>
-    <div class="quiz-shell" id="quiz"></div>
-  </section>
+  <div class="quiz-page">
+    <section>
+      <div class="section-head">
+        <h2>Testing area</h2>
+        <p>Practice tests I build while studying. Each test is served in sets of 10, graded immediately,
+        with the correct answers and explanations.</p>
+      </div>
+      <div id="testPicker" class="batches" aria-label="Choose a test"></div>
+      <div id="quizMeta"></div>
+      <div class="overall" id="quizProgress" hidden>
+        <div class="bar"><div id="quizProgressBar"></div></div>
+        <span id="quizProgressText"></span>
+      </div>
+      <div id="setNav" class="batches" aria-label="Choose a set"></div>
+      <div class="quiz-shell" id="quiz"></div>
+    </section>
+  </div>
 </main>
 
 <footer class="site-foot">

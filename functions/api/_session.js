@@ -68,3 +68,15 @@ export function jsonResponse(data, status = 200) {
     headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" }
   });
 }
+
+/* Authorized = valid GitHub session for ADMIN_GITHUB_LOGIN, or the ADMIN_TOKEN bearer. */
+export async function isAuthorized(request, env) {
+  const auth = request.headers.get("Authorization") || "";
+  const token = auth.replace(/^Bearer\s+/i, "").trim();
+  if (env.ADMIN_TOKEN && token && safeEqual(token, env.ADMIN_TOKEN)) return true;
+
+  const cookies = parseCookies(request);
+  const session = await verifySession(cookies[SESSION_COOKIE], env.SESSION_SECRET);
+  return Boolean(session && env.ADMIN_GITHUB_LOGIN &&
+    session.login.toLowerCase() === env.ADMIN_GITHUB_LOGIN.toLowerCase());
+}
