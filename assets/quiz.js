@@ -33,7 +33,7 @@ async function init() {
   fillHeader("quiz");
   try { SESSION = await getJSON("/api/session"); } catch (e) { SESSION = { authenticated: false }; }
   try {
-    INDEX = await getJSON("data/quizzes.json");
+    INDEX = await getJSON("data/quizzes.json?v=" + Date.now());
   } catch (err) {
     document.getElementById("quiz").innerHTML =
       `<div class="card"><h2>Couldn't load the tests</h2><p class="muted">${esc(err.message)}</p></div>`;
@@ -74,7 +74,8 @@ async function selectTest(test) {
   currentTest = test;
   localStorage.setItem(LAST_KEY, test.id);
   try {
-    const data = test.private ? await getJSON(test.endpoint) : await getJSON(test.file);
+    const url = test.private ? test.endpoint : test.file + "?v=" + Date.now();
+    const data = await getJSON(url);
     questions = (Array.isArray(data) ? data : (data.questions || [])).sort((a, b) => a.number - b.number);
   } catch (err) {
     document.getElementById("quiz").innerHTML =
