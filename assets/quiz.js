@@ -16,8 +16,10 @@
     el.innerHTML = `
       <div class="demo-banner">
         <b>Demo:</b> these are 10 original sample questions that show how the practice app works.
-        The full <b>80-question AEPA Field 22</b> practice bank (parsed from the study guide) runs
-        privately — it isn't republished here. The interaction, grading, and feedback are identical.
+        The full <b>80-question AEPA Field 22</b> practice bank was parsed from the official
+        <a href="https://www.aepa.nesinc.com/Content/Docs/AZSG_FLD022_Expanded.pdf" target="_blank" rel="noopener">AEPA/NES
+        Special Education study guide (AZSG_FLD022, PDF)</a>, which stays private — it isn't
+        republished here. The interaction, grading, and feedback are identical.
       </div>
       <div class="summary" id="score" hidden></div>
       ${questions.map(q => qCard(q, graded)).join("")}

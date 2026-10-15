@@ -6,6 +6,9 @@ the critical path, the exams, the study notes, and the tools built along the way
 Hosted on **Cloudflare Pages** with a small **Pages Function + KV** API so progress can be updated
 from the site itself.
 
+- **Live: https://sped.notallorder.com** (fallback: https://sped-journey.pages.dev)
+- Repo: https://github.com/67tallchris/sped-journey
+
 ## Pages
 
 | Page | What it shows |
@@ -68,6 +71,13 @@ ADMIN_TOKEN=...
 1. Open `/admin.html`, paste the `ADMIN_TOKEN`, toggle tasks / edit exam scores.
 2. **Save to Cloudflare** → writes to KV; public pages pick it up immediately.
 3. Or use **Download JSON** and commit the result to `data/progress.json`.
+
+## Sources
+
+- **Quiz bank:** official [AEPA Field 22 Special Education study guide (PDF)](https://www.aepa.nesinc.com/Content/Docs/AZSG_FLD022_Expanded.pdf)
+  — AEPA/NES materials at [aepa.nesinc.com](https://www.aepa.nesinc.com). The full 80-question bank is kept private.
+- **Study journal:** generated from my Obsidian notes (`05 - AEPA Study`).
+- **Demo questions:** original, written for this site.
 
 ## Copyright note
 
