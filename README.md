@@ -13,7 +13,7 @@ from the site itself.
 
 | Page | What it shows |
 |---|---|
-| `index.html` | Online resume + the **critical path** visualization with milestone progress |
+| `index.html` | Online resume + the **critical path** visualization with milestone progress + **funding pathways** |
 | `journal.html` | Study journal generated from the Obsidian vault (competency notes + answers) |
 | `quiz.html` | Interactive practice-quiz demo (10 original questions) |
 | `admin.html` | Token-protected editor for milestones + exam scores (writes to KV) |
