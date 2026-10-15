@@ -66,6 +66,14 @@ function renderGate(error) {
         : `<p class="small muted">GitHub sign-in isn't configured yet — set <code>GITHUB_CLIENT_ID</code>,
              <code>GITHUB_CLIENT_SECRET</code>, <code>ADMIN_GITHUB_LOGIN</code>, and <code>SESSION_SECRET</code>
              on the Pages project.</p>`}
+      <details style="margin-top:16px">
+        <summary class="small muted">Advanced: use the admin token instead</summary>
+        <div class="token-row" style="margin-top:10px">
+          <input type="password" id="token" placeholder="ADMIN_TOKEN"
+            style="flex:1;min-width:220px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit">
+          <button class="btn small" id="saveToken">Save token</button>
+        </div>
+      </details>
       <div id="status" class="status-msg" hidden></div>
     </div>`;
   document.getElementById("saveToken")?.addEventListener("click", () => {

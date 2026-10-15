@@ -72,6 +72,31 @@ ADMIN_TOKEN=...
 2. **Save to Cloudflare** → writes to KV; public pages pick it up immediately.
 3. Or use **Download JSON** and commit the result to `data/progress.json`.
 
+## Admin authentication
+
+The write API (`PUT /api/progress`) accepts either:
+
+- **GitHub OAuth session (primary)** — only the account in `ADMIN_GITHUB_LOGIN` can sign in;
+  the session is a signed, HttpOnly cookie (HMAC-SHA256, 30 days).
+- **`ADMIN_TOKEN` bearer (fallback)** — for curl/automation and local dev.
+
+### Enable GitHub sign-in (one-time)
+
+1. GitHub → **Settings → Developer settings → OAuth Apps → New OAuth App**
+   - Application name: `SPED Journey Admin`
+   - Homepage URL: `https://sped.notallorder.com`
+   - Authorization callback URL: `https://sped.notallorder.com/api/auth/callback`
+2. Set the secrets:
+   ```bash
+   npx wrangler pages secret put GITHUB_CLIENT_ID --project-name sped-journey
+   npx wrangler pages secret put GITHUB_CLIENT_SECRET --project-name sped-journey
+   ```
+3. Already set: `ADMIN_GITHUB_LOGIN=67tallchris`, `SESSION_SECRET`, `ADMIN_TOKEN`
+
+Once `GITHUB_CLIENT_ID` is set, `/admin` shows **Sign in with GitHub** and the token fallback moves
+under “Advanced”. Remove the token fallback later by deleting the bearer branch in
+`functions/api/progress.js` and the `ADMIN_TOKEN` secret.
+
 ## Sources
 
 - **Quiz bank:** official [AEPA Field 22 Special Education study guide (PDF)](https://www.aepa.nesinc.com/Content/Docs/AZSG_FLD022_Expanded.pdf)
