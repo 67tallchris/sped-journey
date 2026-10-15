@@ -26,7 +26,19 @@ from the site itself.
 | `data/progress.json` | Hand-written / admin export | Milestones, tasks, exams — static fallback when KV is empty |
 | `data/journal.json` | Generated | `python3 scripts/build_journal.py` parses the Obsidian notes |
 | `data/quizzes.json` | Hand-written | Index of tests shown in the testing area |
-| `data/quizzes/*.json` | Hand-written | Question banks (socioculturalism 30q, sped-demo 10q) |
+| `data/quizzes/*.json` | Hand-written | Public question banks (socioculturalism 30q, sped-demo 10q) |
+| `private/nes601-full.json` | Local only (gitignored) | Full 80-question AEPA Field 22 bank; uploaded to KV as `quiz:nes601-full` |
+
+### Private full bank
+
+The 80-question NES/AEPA Special Education practice bank is **not** in the public build. It lives in
+KV under `quiz:nes601-full` and is served only by `/api/quiz/nes601` to a signed-in owner (GitHub
+session) or with the `ADMIN_TOKEN`. The testing area shows it as a locked card to anonymous visitors.
+
+```bash
+# re-upload after editing private/nes601-full.json
+npx wrangler kv key put "quiz:nes601-full" --path private/nes601-full.json --namespace-id <KV_ID> --remote
+```
 
 ### Sync the journal from Obsidian
 
