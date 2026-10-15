@@ -16,8 +16,8 @@
         { "label": "Write statement of purpose", "done": true },
         { "label": "Update resume for education", "done": true },
         { "label": "Request 3 professional references", "done": true },
-        { "label": "Submit ASU M.Ed. Special Education (Teacher Certification) application", "done": false },
-        { "label": "File FAFSA for the award year", "done": false },
+        { "label": "Submit ASU M.Ed. Special Education (Teacher Certification) application", "done": true },
+        { "label": "File FAFSA for the award year", "done": true },
         { "label": "Admission interview + decision", "done": false }
       ],
       "evidence": [
