@@ -1,34 +1,85 @@
-/* Progress admin: edit milestones/tests and save to Cloudflare KV via /api/progress. */
+/* Progress admin: GitHub-authenticated editing, with admin-token fallback. */
 let DATA = null;
+let SESSION = { configured: false, authenticated: false, login: null };
 const TOKEN_KEY = "sped-admin-token";
 
 (async function () {
-  DATA = await getProgress();
-  render();
-  const t = localStorage.getItem(TOKEN_KEY);
-  if (t) document.getElementById("token").value = t;
+  SESSION = await fetchSession();
+  const token = localStorage.getItem(TOKEN_KEY) || "";
+  if (SESSION.authenticated || token) {
+    try {
+      DATA = await getProgress();
+      render();
+    } catch (err) {
+      renderGate(`Couldn't load progress data: ${err.message}`);
+    }
+  } else {
+    renderGate();
+  }
 })();
+
+async function fetchSession() {
+  try {
+    return await getJSON("/api/session");
+  } catch {
+    return { configured: false, authenticated: false, login: null };
+  }
+}
 
 function msg(text, kind) {
   const el = document.getElementById("status");
+  if (!el) return;
   el.className = "status-msg " + (kind || "");
   el.textContent = text;
   el.hidden = false;
 }
 
+function authBanner() {
+  if (SESSION.authenticated) {
+    return `<div class="card" style="margin-bottom:18px;display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap">
+      <div>Signed in as <b>@${esc(SESSION.login)}</b> <span class="muted small">(GitHub)</span></div>
+      <a class="btn small secondary" href="/api/auth/logout">Sign out</a>
+    </div>`;
+  }
+  return `<details class="card" style="margin-bottom:18px">
+    <summary><b>Using admin token</b> <span class="muted small">— GitHub sign-in ${
+      SESSION.configured ? "is available" : "is not configured yet"}</span></summary>
+    <div class="token-row" style="margin-top:10px">
+      <input type="password" id="token" placeholder="ADMIN_TOKEN"
+        style="flex:1;min-width:220px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit">
+      <button class="btn small" id="saveToken">Save token</button>
+      ${SESSION.configured ? `<a class="btn small secondary" href="/api/auth/login">Sign in with GitHub</a>` : ""}
+    </div>
+  </details>`;
+}
+
+function renderGate(error) {
+  const el = document.getElementById("admin");
+  el.innerHTML = `
+    <div class="card" style="max-width:680px">
+      <h3>Sign in to edit</h3>
+      ${error ? `<p class="muted">${esc(error)}</p>` : ""}
+      <p class="muted">This editor is limited to the site owner. The public pages stay open;
+      writes are restricted to a GitHub-authenticated session (or the admin token as a fallback).</p>
+      ${SESSION.configured
+        ? `<a class="btn" href="/api/auth/login">Sign in with GitHub</a>`
+        : `<p class="small muted">GitHub sign-in isn't configured yet — set <code>GITHUB_CLIENT_ID</code>,
+             <code>GITHUB_CLIENT_SECRET</code>, <code>ADMIN_GITHUB_LOGIN</code>, and <code>SESSION_SECRET</code>
+             on the Pages project.</p>`}
+      <div id="status" class="status-msg" hidden></div>
+    </div>`;
+  document.getElementById("saveToken")?.addEventListener("click", () => {
+    localStorage.setItem(TOKEN_KEY, document.getElementById("token").value.trim());
+    msg("Token saved — reloading.", "ok");
+    setTimeout(() => location.reload(), 400);
+  });
+}
+
 function render() {
   const el = document.getElementById("admin");
   el.innerHTML = `
-    <div class="card" style="margin-bottom:18px">
-      <h3>Update token</h3>
-      <p class="muted small">Stored only in this browser. It's the <code>ADMIN_TOKEN</code> set on the
-      Cloudflare Pages project — required to write to the live progress store.</p>
-      <div class="token-row">
-        <input type="password" id="token" placeholder="ADMIN_TOKEN" style="flex:1;min-width:240px;padding:9px 12px;border:1px solid var(--line);border-radius:9px;font:inherit">
-        <button class="btn small" id="saveToken">Save token</button>
-      </div>
-      <div id="status" class="status-msg" hidden></div>
-    </div>
+    ${authBanner()}
+    <div id="status" class="status-msg" hidden></div>
 
     <div class="admin-form">
       ${DATA.milestones.map((m, mi) => `
@@ -101,14 +152,16 @@ function render() {
     <p class="muted small">If the API isn't available (local preview), use <b>Download JSON</b> and
     replace <code>data/progress.json</code> before redeploying.</p>`;
 
-  document.getElementById("saveToken").addEventListener("click", () => {
+  document.getElementById("saveToken")?.addEventListener("click", () => {
     localStorage.setItem(TOKEN_KEY, document.getElementById("token").value.trim());
-    msg("Token saved in this browser.", "ok");
+    msg("Token saved — reloading.", "ok");
+    setTimeout(() => location.reload(), 400);
   });
   document.getElementById("addTest").addEventListener("click", () => {
+    collect();
     DATA.tests = DATA.tests || [];
     DATA.tests.push({ name: "", status: "studying", target: "", score: "", note: "" });
-    collect(); render();
+    render();
   });
   el.querySelectorAll("[data-del]").forEach(b => b.addEventListener("click", () => {
     collect();
@@ -161,17 +214,20 @@ function collect() {
 
 async function save() {
   collect();
-  const token = document.getElementById("token").value.trim();
-  localStorage.setItem(TOKEN_KEY, token);
-  if (!token) { msg("Enter the admin token first.", "err"); return; }
+  const token = localStorage.getItem(TOKEN_KEY) || "";
+  const headers = { "content-type": "application/json" };
+  if (!SESSION.authenticated && token) headers.Authorization = "Bearer " + token;
   try {
     const res = await fetch("/api/progress", {
       method: "PUT",
-      headers: { "content-type": "application/json", "Authorization": "Bearer " + token },
+      headers,
+      credentials: "same-origin",
       body: JSON.stringify(DATA)
     });
     const out = await res.json().catch(() => ({}));
-    if (res.status === 401) return msg("Unauthorized — token doesn't match ADMIN_TOKEN.", "err");
+    if (res.status === 401) {
+      return msg("Not authorized — sign in with GitHub (or save a valid admin token).", "err");
+    }
     if (!res.ok) return msg(`Save failed (${res.status}): ${out.error || "unknown error"}`, "err");
     msg(`Saved to Cloudflare at ${out.savedAt || "just now"}.`, "ok");
   } catch (err) {

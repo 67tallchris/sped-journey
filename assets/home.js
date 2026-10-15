@@ -1,6 +1,30 @@
 /* Home page: profile, critical path, stats, resume, projects. */
+function renderSectionNav() {
+  const nav = document.getElementById("sectionNav");
+  if (!nav) return;
+  const items = [
+    ["mission", "Why SPED"],
+    ["path", "Critical path"],
+    ["funding", "Funding"],
+    ["tests", "Exams"],
+    ["resume", "Resume"],
+    ["projects", "Projects"],
+    ["contact", "Contact"]
+  ];
+  nav.innerHTML = items.map(([id, label]) => `<a href="#${id}" data-target="${id}">${label}</a>`).join("");
+  const links = [...nav.querySelectorAll("a")];
+  const setActive = id => links.forEach(l => l.classList.toggle("active", l.dataset.target === id));
+  if ("IntersectionObserver" in window) {
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) setActive(e.target.id); });
+    }, { rootMargin: "-30% 0px -60% 0px" });
+    items.forEach(([id]) => { const el = document.getElementById(id); if (el) obs.observe(el); });
+  }
+}
+
 (async function () {
   fillHeader("home");
+  renderSectionNav();
   const app = document.getElementById("app");
   try {
     const [site, progress, journal] = await Promise.all([
