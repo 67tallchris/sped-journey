@@ -1,0 +1,23 @@
+{
+  "updated": "2026-10-15",
+  "tests": [
+    {
+      "id": "socioculturalism",
+      "title": "Socioculturalism",
+      "subtitle": "30 questions · learning theory",
+      "file": "data/quizzes/socioculturalism.json",
+      "source": "https://edtechbooks.org/studentguide/socioculturalism",
+      "sourceLabel": "Allman, B. — Socioculturalism (EdTech Books, CC BY)",
+      "note": "Based on the open-licensed chapter from Learning Theories (EdTech Books). Questions are original, written from the chapter's ideas."
+    },
+    {
+      "id": "sped-demo",
+      "title": "SPED Sample Questions",
+      "subtitle": "10 questions · special education",
+      "file": "data/quizzes/sped-demo.json",
+      "source": "https://www.aepa.nesinc.com/Content/Docs/AZSG_FLD022_Expanded.pdf",
+      "sourceLabel": "AEPA Field 22 Special Education study guide",
+      "note": "Original sample questions demonstrating the AEPA Field 22 practice app. The full 80-question bank is kept private."
+    }
+  ]
+}

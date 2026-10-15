@@ -90,31 +90,69 @@
     }
   ],
   "skills": [
-    { "group": "Teaching & learning", "items": ["IEP development (learning)", "UDL & differentiated instruction", "Behavior support & FBA/BIP concepts", "Progress monitoring", "Family & team collaboration"] },
-    { "group": "From business", "items": ["Facilitation & training", "Coaching & active listening", "Program & project management", "Written communication", "Tool building & automation"] },
-    { "group": "Personal", "items": ["American Sign Language (ASL)", "Lived ADHD experience", "Empathy & patience", "Systems thinking"] }
+    {
+      "group": "Teaching & learning",
+      "items": [
+        "IEP development (learning)",
+        "UDL & differentiated instruction",
+        "Behavior support & FBA/BIP concepts",
+        "Progress monitoring",
+        "Family & team collaboration"
+      ]
+    },
+    {
+      "group": "From business",
+      "items": [
+        "Facilitation & training",
+        "Coaching & active listening",
+        "Program & project management",
+        "Written communication",
+        "Tool building & automation"
+      ]
+    },
+    {
+      "group": "Personal",
+      "items": [
+        "American Sign Language (ASL)",
+        "Lived ADHD experience",
+        "Empathy & patience",
+        "Systems thinking"
+      ]
+    }
   ],
   "projects": [
     {
-      "title": "NES 601 Practice Quiz",
-      "desc": "A self-contained quiz app that serves an 80-question practice bank in sets of 10, grades each set, and shows correct answers. Built by parsing the study guide with pdftotext + Python, with the UI in vanilla JS.",
+      "title": "Testing area — Socioculturalism + SPED",
+      "desc": "Practice tests served in sets of 10 with instant grading and explanations: a 30-question Socioculturalism (learning theory) test and SPED sample questions. Vanilla JS; the 80-question AEPA bank runs privately.",
       "link": "/quiz",
-      "linkLabel": "Try the demo",
-      "tags": ["Python", "JavaScript", "study tool"]
+      "linkLabel": "Open the testing area",
+      "tags": [
+        "learning theory",
+        "JavaScript",
+        "study tool"
+      ]
     },
     {
       "title": "Obsidian study system",
       "desc": "Every practice question I miss becomes a structured note: topic, correct answer, and why. Now 13 notes / 54 questions across three exams, synced into this site automatically.",
       "link": "/journal",
       "linkLabel": "Open the study journal",
-      "tags": ["Obsidian", "note-taking", "self-assessment"]
+      "tags": [
+        "Obsidian",
+        "note-taking",
+        "self-assessment"
+      ]
     },
     {
       "title": "This progress portfolio",
       "desc": "A static site hosted on Cloudflare Pages with a small API (Pages Functions + KV) so I can update milestones and scores as I go.",
       "link": "/admin",
       "linkLabel": "Update progress",
-      "tags": ["Cloudflare", "HTML/CSS/JS", "open build"]
+      "tags": [
+        "Cloudflare",
+        "HTML/CSS/JS",
+        "open build"
+      ]
     }
   ]
 }

@@ -185,6 +185,10 @@ section{padding:44px 0}
 .site-foot .wrap{display:flex;gap:16px;justify-content:space-between;flex-wrap:wrap}
 
 /* funding */
+.test-btn{align-items:flex-start;min-width:210px;text-align:left}
+.test-btn b{font-size:13.5px}
+#quizMeta{margin:8px 0 4px}
+#quizMeta .card{padding:14px 18px}
 .funding-summary{display:flex;gap:34px;flex-wrap:wrap;margin-bottom:16px}
 .stat-inline b{display:block;font-size:24px;letter-spacing:-.02em}
 .stat-inline span{color:var(--muted);font-size:13px}

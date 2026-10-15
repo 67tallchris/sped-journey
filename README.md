@@ -15,7 +15,7 @@ from the site itself.
 |---|---|
 | `index.html` | Online resume + the **critical path** visualization with milestone progress + **funding pathways** |
 | `journal.html` | Study journal generated from the Obsidian vault (competency notes + answers) |
-| `quiz.html` | Interactive practice-quiz demo (10 original questions) |
+| `quiz.html` | Testing area: multiple practice tests (Socioculturalism 30q, SPED sample 10q), sets of 10 with grading |
 | `admin.html` | Token-protected editor for milestones + exam scores (writes to KV) |
 
 ## Data
@@ -25,7 +25,8 @@ from the site itself.
 | `data/site.json` | Hand-written | Profile, resume, skills, projects |
 | `data/progress.json` | Hand-written / admin export | Milestones, tasks, exams — static fallback when KV is empty |
 | `data/journal.json` | Generated | `python3 scripts/build_journal.py` parses the Obsidian notes |
-| `data/demo-questions.json` | Hand-written | 10 original demo questions (no copyrighted test content) |
+| `data/quizzes.json` | Hand-written | Index of tests shown in the testing area |
+| `data/quizzes/*.json` | Hand-written | Question banks (socioculturalism 30q, sped-demo 10q) |
 
 ### Sync the journal from Obsidian
 

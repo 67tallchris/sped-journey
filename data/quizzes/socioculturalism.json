@@ -1,0 +1,392 @@
+[
+  {
+    "number": 1,
+    "stem": "Sociocultural theory is most closely associated with which psychologist?",
+    "options": [
+      { "letter": "A", "text": "Jean Piaget" },
+      { "letter": "B", "text": "Lev Vygotsky" },
+      { "letter": "C", "text": "Ivan Pavlov" },
+      { "letter": "D", "text": "Alfred Binet" }
+    ],
+    "answer": "B",
+    "objective": "Origins",
+    "explanation": "The chapter identifies the Russian psychologist Lev Vygotsky (1896–1934) as the founder of sociocultural theory."
+  },
+  {
+    "number": 2,
+    "stem": "According to the chapter, the focus of sociocultural theory is on the role that ______ play(s) in the development of higher-order thinking skills.",
+    "options": [
+      { "letter": "A", "text": "genetics and biological maturation" },
+      { "letter": "B", "text": "reinforcement and punishment" },
+      { "letter": "C", "text": "social interaction and culture" },
+      { "letter": "D", "text": "individual discovery and trial and error" }
+    ],
+    "answer": "C",
+    "objective": "Core claim",
+    "explanation": "The theory's focus is on the role social interaction and culture play in the development of higher-order thinking skills."
+  },
+  {
+    "number": 3,
+    "stem": "Bruner described Vygotsky's and Piaget's theories as 'incommensurate' because they highlight two different ways human beings make sense of their world. Which pair best captures that contrast?",
+    "options": [
+      { "letter": "A", "text": "Logical necessity (Piaget) vs. interpretive reconstruction of circumstances (Vygotsky)" },
+      { "letter": "B", "text": "Conscious thought (Piaget) vs. unconscious thought (Vygotsky)" },
+      { "letter": "C", "text": "Observation (Piaget) vs. experimentation (Vygotsky)" },
+      { "letter": "D", "text": "Nature (Piaget) vs. nurture (Vygotsky)" }
+    ],
+    "answer": "A",
+    "objective": "Vygotsky vs. Piaget",
+    "explanation": "The chapter quotes Bruner's contrast: 'logical necessity (Piaget) or… interpretive reconstruction of circumstances (Vygotsky).'"
+  },
+  {
+    "number": 4,
+    "stem": "Why did Vygotsky's work remain largely unknown outside Russia until fairly recently?",
+    "options": [
+      { "letter": "A", "text": "He refused to publish during his lifetime" },
+      { "letter": "B", "text": "His manuscripts were banned for political reasons and translation issues delayed dissemination" },
+      { "letter": "C", "text": "His work was destroyed in a fire" },
+      { "letter": "D", "text": "He wrote only about biology, not psychology" }
+    ],
+    "answer": "B",
+    "objective": "Origins/history",
+    "explanation": "After his death his manuscripts were banned in the USSR for political reasons; his work became known in the West after 'Language and Thought' was translated in 1962."
+  },
+  {
+    "number": 5,
+    "stem": "According to Vygotsky, cognitive development cannot be understood:",
+    "options": [
+      { "letter": "A", "text": "without reference to the social context in which it is embedded" },
+      { "letter": "B", "text": "without standardized intelligence testing" },
+      { "letter": "C", "text": "before adolescence" },
+      { "letter": "D", "text": "apart from inherited traits alone" }
+    ],
+    "answer": "A",
+    "objective": "Social origins",
+    "explanation": "Vygotsky believed thinking has social origins and that cognitive development cannot be understood without reference to the social context in which it is embedded."
+  },
+  {
+    "number": 6,
+    "stem": "Vygotsky wrote that every function in a child's cultural development appears twice. Which sequence does he describe?",
+    "options": [
+      { "letter": "A", "text": "First intrapsychological, then interpsychological" },
+      { "letter": "B", "text": "First interpsychological (between people), then intrapsychological (inside the child)" },
+      { "letter": "C", "text": "First biological, then cultural" },
+      { "letter": "D", "text": "First private, then social" }
+    ],
+    "answer": "B",
+    "objective": "Social origins",
+    "explanation": "The chapter quotes Vygotsky: 'first, on the social level, and later, on the individual level; first between people (interpsychological) and then inside the child (intrapsychological).'"
+  },
+  {
+    "number": 7,
+    "stem": "Rogoff's term for a child actively acquiring new cognitive skills and problem-solving capabilities through meaningful collaborative activity with an assisting adult is:",
+    "options": [
+      { "letter": "A", "text": "guided participation" },
+      { "letter": "B", "text": "scaffolding" },
+      { "letter": "C", "text": "private speech" },
+      { "letter": "D", "text": "dynamic assessment" }
+    ],
+    "answer": "A",
+    "objective": "Guided participation",
+    "explanation": "The chapter describes this process as guided participation (Rogoff, 1990), where the child actively acquires skills through collaboration with a more knowledgeable partner."
+  },
+  {
+    "number": 8,
+    "stem": "The Vygotskian view of cognitive development as 'the transformation of socially shared activities into internalized processes' is described in the chapter as:",
+    "options": [
+      { "letter": "A", "text": "an act of enculturation" },
+      { "letter": "B", "text": "a Cartesian dichotomy" },
+      { "letter": "C", "text": "a fixed developmental stage" },
+      { "letter": "D", "text": "logical necessity" }
+    ],
+    "answer": "A",
+    "objective": "Internalization",
+    "explanation": "The chapter calls this transformation an act of enculturation, and notes that it rejects the Cartesian dichotomy between the internal and the external."
+  },
+  {
+    "number": 9,
+    "stem": "A key implication of Vygotsky's view that learning drives development is that:",
+    "options": [
+      { "letter": "A", "text": "concepts should not be taught until children have developed the necessary logical operations" },
+      { "letter": "B", "text": "curriculum and activities can be structured to promote individual learning and development" },
+      { "letter": "C", "text": "development is biologically determined and precedes learning" },
+      { "letter": "D", "text": "instruction should always wait for readiness" }
+    ],
+    "answer": "B",
+    "objective": "Learning drives development",
+    "explanation": "If learning drives development, educators can structure curriculum and activities to promote development — rather than waiting for development to make learning possible."
+  },
+  {
+    "number": 10,
+    "stem": "Which statement best describes the difference between Piaget's and Vygotsky's assumptions about development and learning?",
+    "options": [
+      { "letter": "A", "text": "Piaget: development is a precondition for learning; Vygotsky: learning drives development" },
+      { "letter": "B", "text": "Piaget: learning drives development; Vygotsky: development is a precondition for learning" },
+      { "letter": "C", "text": "Both believed development and learning are unrelated" },
+      { "letter": "D", "text": "Both believed culture plays no role in development" }
+    ],
+    "answer": "A",
+    "objective": "Vygotsky vs. Piaget",
+    "explanation": "The chapter explains that Piaget treated development as biologically determined and preceding cognitive complexity, while Vygotsky held that properly organized learning results in mental development."
+  },
+  {
+    "number": 11,
+    "stem": "How does the sociocultural perspective treat individual and cross-cultural differences in development?",
+    "options": [
+      { "letter": "A", "text": "It assumes one universal developmental endpoint for all children" },
+      { "letter": "B", "text": "It acknowledges different developmental routes depending on historical and cultural circumstances" },
+      { "letter": "C", "text": "It treats diversity as a barrier to be corrected" },
+      { "letter": "D", "text": "It focuses only on white, middle-class children of Western tradition" }
+    ],
+    "answer": "B",
+    "objective": "Diversity",
+    "explanation": "The chapter notes that 'different historical and cultural circumstances may encourage different developmental routes to any given developmental endpoint,' and that this sensitivity to diversity can free educators from a universalist view."
+  },
+  {
+    "number": 12,
+    "stem": "Vygotsky's notion of the social origins of learning stands in contrast to which theorist's assumption that development precedes cognitive complexity?",
+    "options": [
+      { "letter": "A", "text": "Piaget" },
+      { "letter": "B", "text": "Bruner" },
+      { "letter": "C", "text": "Rogoff" },
+      { "letter": "D", "text": "Wertsch" }
+    ],
+    "answer": "A",
+    "objective": "Vygotsky vs. Piaget",
+    "explanation": "The chapter contrasts Vygotsky's social origins of learning with Piaget's assumption that development through stages is biologically determined, originates in the individual, and precedes cognitive complexity."
+  },
+  {
+    "number": 13,
+    "stem": "Semiotic mediation refers to:",
+    "options": [
+      { "letter": "A", "text": "learning through reinforcement and punishment" },
+      { "letter": "B", "text": "human action mediated by tools and signs such as language, counting systems, and conventional signs" },
+      { "letter": "C", "text": "the biological basis of language acquisition" },
+      { "letter": "D", "text": "the use of standardized tests to mediate instruction" }
+    ],
+    "answer": "B",
+    "objective": "Language and tools",
+    "explanation": "Vygotsky proposed that human action on both the social and individual planes is mediated by tools and signs (semiotics) — language, systems of counting, conventional signs, works of art, and so on."
+  },
+  {
+    "number": 14,
+    "stem": "The process of adopting or internalizing socially available psychological tools to assist future independent problem solving is called:",
+    "options": [
+      { "letter": "A", "text": "appropriation" },
+      { "letter": "B", "text": "accommodation" },
+      { "letter": "C", "text": "assimilation" },
+      { "letter": "D", "text": "automaticity" }
+    ],
+    "answer": "A",
+    "objective": "Language and tools",
+    "explanation": "Appropriation is the process of adopting or internalizing socially available psychological tools; learners don't need to reinvent existing tools, only to be introduced to their use."
+  },
+  {
+    "number": 15,
+    "stem": "According to Vygotsky, language plays two critical roles in development:",
+    "options": [
+      { "letter": "A", "text": "communication with others and construction of meaning" },
+      { "letter": "B", "text": "reinforcement and punishment" },
+      { "letter": "C", "text": "encoding and retrieval" },
+      { "letter": "D", "text": "perception and attention" }
+    ],
+    "answer": "A",
+    "objective": "Language and tools",
+    "explanation": "The chapter describes language as a form of symbolic mediation with two critical roles: to communicate with others and to construct meaning."
+  },
+  {
+    "number": 16,
+    "stem": "Social speech typically emerges around what age, and what is its function?",
+    "options": [
+      { "letter": "A", "text": "Around age 2; external speech directed toward others with a communicative function" },
+      { "letter": "B", "text": "Around age 3; speech directed at the self for self-regulation" },
+      { "letter": "C", "text": "Around age 7; internal, inaudible speech" },
+      { "letter": "D", "text": "At birth; reflexive vocalization" }
+    ],
+    "answer": "A",
+    "objective": "Speech development",
+    "explanation": "Social speech emerges around age two — external/overt speech directed toward others with a communicative function."
+  },
+  {
+    "number": 17,
+    "stem": "Private speech is best described as:",
+    "options": [
+      { "letter": "A", "text": "external/overt language directed at the self, serving self-regulating and intellectual functions" },
+      { "letter": "B", "text": "internal, inaudible speech used to communicate with others" },
+      { "letter": "C", "text": "speech directed at others to fulfill needs" },
+      { "letter": "D", "text": "a form of social speech used only in group work" }
+    ],
+    "answer": "A",
+    "objective": "Speech development",
+    "explanation": "Around age three children develop private speech: overt language directed at the self, used to plan, organize thoughts, and self-regulate rather than to communicate."
+  },
+  {
+    "number": 18,
+    "stem": "At approximately what age does private speech typically become inner speech, according to the chapter?",
+    "options": [
+      { "letter": "A", "text": "Age 2" },
+      { "letter": "B", "text": "Age 3" },
+      { "letter": "C", "text": "Age 7" },
+      { "letter": "D", "text": "Age 12" }
+    ],
+    "answer": "C",
+    "objective": "Speech development",
+    "explanation": "Around age seven private speech becomes less visible and internalizes into inner speech — the child can 'think in words.'"
+  },
+  {
+    "number": 19,
+    "stem": "Which statement about inner speech matches the chapter?",
+    "options": [
+      { "letter": "A", "text": "It is audible and primarily communicative" },
+      { "letter": "B", "text": "It is idiosyncratic, abbreviated, fragmented, and 'to a large extent thinking in pure meanings' — covert and inaudible" },
+      { "letter": "C", "text": "It replaces language entirely by adolescence" },
+      { "letter": "D", "text": "It serves only social functions" }
+    ],
+    "answer": "B",
+    "objective": "Speech development",
+    "explanation": "Inner speech remains self-directed with self-regulating and intellectual functions, but it is covert, inaudible, idiosyncratic, abbreviated, and fragmented."
+  },
+  {
+    "number": 20,
+    "stem": "The Zone of Proximal Development (ZPD) is defined as the distance between:",
+    "options": [
+      { "letter": "A", "text": "what a learner can do independently and what they can do under adult guidance or with more capable peers" },
+      { "letter": "B", "text": "a learner's IQ and their achievement test score" },
+      { "letter": "C", "text": "the home culture and the school culture" },
+      { "letter": "D", "text": "the learner's chronological age and mental age" }
+    ],
+    "answer": "A",
+    "objective": "ZPD",
+    "explanation": "Vygotsky defined the ZPD as 'the distance between the actual developmental level as determined by independent problem solving and the level of potential development as determined through problem solving under adult guidance or in collaboration with more capable peers.'"
+  },
+  {
+    "number": 21,
+    "stem": "According to the chapter, why did Vygotsky consider the ZPD a better indicator of cognitive development than measuring what children can do independently?",
+    "options": [
+      { "letter": "A", "text": "Because it is easier to measure with standardized tests" },
+      { "letter": "B", "text": "Because it is a more dynamic indicator that includes potential as well as actual development" },
+      { "letter": "C", "text": "Because it stays the same across all domains and ages" },
+      { "letter": "D", "text": "Because it focuses only on play" }
+    ],
+    "answer": "B",
+    "objective": "ZPD",
+    "explanation": "The ZPD captures both what a learner can do alone and what they can do with support, making it a more dynamic indicator. Vygotsky argued instruction should orient toward the ZPD, or it lags behind development."
+  },
+  {
+    "number": 22,
+    "stem": "The notion of scaffolding was added to sociocultural theory in the 1970s by:",
+    "options": [
+      { "letter": "A", "text": "Vygotsky" },
+      { "letter": "B", "text": "Bruner, Wood, and Ross" },
+      { "letter": "C", "text": "Piaget and Inhelder" },
+      { "letter": "D", "text": "Rogoff and Wertsch" }
+    ],
+    "answer": "B",
+    "objective": "Scaffolding",
+    "explanation": "The chapter states that in the 1970s Bruner, Wood, and Ross added the notion of scaffolding to sociocultural theory."
+  },
+  {
+    "number": 23,
+    "stem": "Which description best matches effective scaffolding?",
+    "options": [
+      { "letter": "A", "text": "Permanent support that remains constant regardless of learner progress" },
+      { "letter": "B", "text": "Adjustable, temporary support that is gradually phased out as the learner becomes proficient" },
+      { "letter": "C", "text": "Completing the task for the learner so they can observe" },
+      { "letter": "D", "text": "Verbal instruction alone, with no modeling or adjustment" }
+    ],
+    "answer": "B",
+    "objective": "Scaffolding",
+    "explanation": "Scaffolding is dynamic and temporary: supports depend on the learner's needs and are phased out as proficiency grows, promoting movement toward autonomy."
+  },
+  {
+    "number": 24,
+    "stem": "In a successful collaborative activity, 'intersubjectivity' means that partners:",
+    "options": [
+      { "letter": "A", "text": "share a degree of common understanding about the task and co-construct the solution with shared power and authority" },
+      { "letter": "B", "text": "one partner dominates the process while the other observes" },
+      { "letter": "C", "text": "work side by side without interacting" },
+      { "letter": "D", "text": "take turns being tested individually" }
+    ],
+    "answer": "A",
+    "objective": "Collaboration",
+    "explanation": "It is not enough to merely work together; partners must co-construct the solution through coordinated effort, which implies shared power and authority over the process."
+  },
+  {
+    "number": 25,
+    "stem": "How does dynamic assessment differ from traditional assessment, according to the chapter?",
+    "options": [
+      { "letter": "A", "text": "It measures only what learners can do unaided at a point in time" },
+      { "letter": "B", "text": "It takes into account both what a learner can do independently and what they can do with assistance" },
+      { "letter": "C", "text": "It relies exclusively on standardized scores" },
+      { "letter": "D", "text": "It is used only with gifted students" }
+    ],
+    "answer": "B",
+    "objective": "Dynamic assessment",
+    "explanation": "Dynamic assessment reveals performance improvements often missed by standard tests, which is especially important for underachieving children who do not perform to their ability levels."
+  },
+  {
+    "number": 26,
+    "stem": "In a sociocultural view of instruction, the teacher is best described as:",
+    "options": [
+      { "letter": "A", "text": "a transmitter of knowledge and enforcer of rules" },
+      { "letter": "B", "text": "a guide, assistant, and facilitator of learning" },
+      { "letter": "C", "text": "the sole authority and evaluator" },
+      { "letter": "D", "text": "a passive observer" }
+    ],
+    "answer": "B",
+    "objective": "Roles",
+    "explanation": "The learner takes on more responsibility (setting goals, being a resource for peers), while the teacher becomes a guide, assistant, and facilitator rather than a transmitter of knowledge."
+  },
+  {
+    "number": 27,
+    "stem": "Which of the following is identified in the chapter as a strength of sociocultural theory?",
+    "options": [
+      { "letter": "A", "text": "It views individuals as isolated entities" },
+      { "letter": "B", "text": "It emphasizes the broader social, cultural, and historical context of human activity" },
+      { "letter": "C", "text": "It assumes universal developmental stages" },
+      { "letter": "D", "text": "It ignores cultural diversity" }
+    ],
+    "answer": "B",
+    "objective": "Strengths",
+    "explanation": "Strengths include its emphasis on context, its sensitivity to individual and cross-cultural diversity, and its integration of learning and development."
+  },
+  {
+    "number": 28,
+    "stem": "Which of the following is a limitation of sociocultural theory discussed in the chapter?",
+    "options": [
+      { "letter": "A", "text": "The theory is too precise about how to measure the ZPD" },
+      { "letter": "B", "text": "The ZPD is vague: zones may be wide or narrow, may differ across domains, and there is no common metric to measure them" },
+      { "letter": "C", "text": "The theory denies that language matters in learning" },
+      { "letter": "D", "text": "The theory claims scaffolding works identically in every culture" }
+    ],
+    "answer": "B",
+    "objective": "Limitations",
+    "explanation": "Limitations include Vygotsky's early death (leaving theories incomplete) and the vagueness of the ZPD. Rogoff also noted that scaffolding's reliance on verbal instruction may not be equally effective across cultures."
+  },
+  {
+    "number": 29,
+    "stem": "One instructional design implication of sociocultural theory is a shift toward:",
+    "options": [
+      { "letter": "A", "text": "a focus on the individual learner and learner-centered instruction" },
+      { "letter": "B", "text": "context-deprived topics presented in a fixed sequence" },
+      { "letter": "C", "text": "purely individualistic learning driven by set objectives" },
+      { "letter": "D", "text": "removing all collaboration from instruction" }
+    ],
+    "answer": "A",
+    "objective": "Instructional design",
+    "explanation": "The chapter argues for a learner-centered shift — focusing on the individual learner and effective pedagogical practices, consistent with approaches like Universal Design for Learning."
+  },
+  {
+    "number": 30,
+    "stem": "The chapter's attention to a learner's 'funds of knowledge' and a 'third space' for discourse is meant to:",
+    "options": [
+      { "letter": "A", "text": "measure the learner's prior knowledge with standardized tests" },
+      { "letter": "B", "text": "integrate learners' existing knowledge, relationships, and cultural experiences into instruction" },
+      { "letter": "C", "text": "separate home discourse from school discourse as much as possible" },
+      { "letter": "D", "text": "replace collaborative learning with independent study" }
+    ],
+    "answer": "B",
+    "objective": "Instructional design",
+    "explanation": "Funds of knowledge and third-space discourse bring learners' previous knowledge, relationships, and cultural experiences into instruction, which supports conceptual understanding, academic language, and deeper learning."
+  }
+]
