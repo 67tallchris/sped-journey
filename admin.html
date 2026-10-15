@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Update Progress — Chris Porter</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/">Chris <span>Porter</span></a>
+    <nav class="site-nav">
+      <a href="/">Home</a>
+      <a href="/journal">Study journal</a>
+      <a href="/quiz">Quiz</a>
+      <a class="cta" data-nav="admin" href="/admin">Update</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <div class="section-head">
+      <h2>Update progress</h2>
+      <p>Toggle milestone steps and update exam scores. Saving writes to Cloudflare KV, which the public
+      pages read first (with the committed JSON as a fallback).</p>
+    </div>
+    <div id="admin"></div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div><span id="year"></span> Chris Porter · admin</div>
+    <div><a href="/">Back home</a></div>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="assets/common.js"></script>
+<script src="assets/admin.js"></script>
+</body>
+</html>

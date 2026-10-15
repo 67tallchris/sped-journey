@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study Journal — Chris Porter</title>
+<meta name="description" content="Competency-by-competency study notes from preparing for the NES/AEPA Special Education and Elementary Education exams.">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/">Chris <span>Porter</span></a>
+    <nav class="site-nav">
+      <a data-nav="home" href="/">Home</a>
+      <a href="/#path">Critical path</a>
+      <a class="cta" data-nav="journal" href="/journal">Study journal</a>
+      <a href="/quiz">Quiz</a>
+      <a href="/#resume">Resume</a>
+      <a href="/admin">Update</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="journal-head"></section>
+  <div class="filters" id="filters"></div>
+  <div id="notes"></div>
+  <section id="checklist"></section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div>Notes generated from my Obsidian vault · <span id="year"></span> Chris Porter</div>
+    <div><a href="/">Back home</a> · <a href="/quiz">Practice quiz</a></div>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="assets/common.js"></script>
+<script src="assets/journal.js"></script>
+</body>
+</html>

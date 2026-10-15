@@ -1,0 +1,120 @@
+{
+  "name": "Chris Porter",
+  "headline": "Career changer → Special Education Teacher (Mild/Moderate, K–12)",
+  "subhead": "20 years in business · ADHD coach · building a second career around helping neurodivergent kids be understood",
+  "location": "Marana, Arizona",
+  "email": "chris.porter@notallorder.com",
+  "phone": "",
+  "linkedin": "",
+  "github": "https://github.com/67tallchris",
+  "target": {
+    "district": "Marana Unified School District (MUSD)",
+    "role": "Special Education Teacher — teacher of record",
+    "pathway": "Arizona Alternative Teaching Certificate / Intern Certificate → Standard Professional Certificate"
+  },
+  "summary": "I spent 20 years in business — consulting, coaching, and managing teams — and ADHD coaching showed me where I actually do my best work: helping people whose brains work differently get understood and supported. I'm now retraining as a Mild/Moderate Special Education teacher in Arizona, with the goal of teaching in the Marana district I call home. This site tracks the work: every exam, every study note, every milestone.",
+  "mission": [
+    "I was diagnosed with ADHD at five years old, and grew up curious about how differently brains learn. That curiosity became a career in coaching adults with ADHD — watching capable people struggle for decades because no one adapted to how they learn best.",
+    "I want to reach people earlier. My goal is a special education classroom where differences in learning are something to design for, not fix — where IEPs are written well, families are partners, and neurodivergent students are celebrated.",
+    "This portfolio is both the plan and the evidence: the critical path to certification, the tests I'm studying for, the notes I'm building, and the tools I'm making along the way."
+  ],
+  "education": [
+    {
+      "school": "University of Arizona — Eller College of Management",
+      "credential": "B.S. Business Management",
+      "year": "December 2007",
+      "note": "Foundational business and analytics background; now returning to education through an Arizona EPP."
+    }
+  ],
+  "experience": [
+    {
+      "org": "No Tall Order",
+      "role": "Owner — Consultant & Coach",
+      "dates": "May 2015 – Present",
+      "location": "Tucson, AZ",
+      "bullets": [
+        "Coached ADHD clients 1-on-1 to build focus, structure, and follow-through — the same skills I'll bring to students and families.",
+        "Consulted CEOs and COOs on operations and knowledge systems.",
+        "Managed operations for hundreds of outbound email campaigns."
+      ]
+    },
+    {
+      "org": "Falcon Flight Photography",
+      "role": "Owner",
+      "dates": "Aug 2019 – Dec 2021",
+      "location": "Tucson, AZ",
+      "bullets": [
+        "Ran small-business drone photography and video production end-to-end.",
+        "Translated client vision into finished marketing assets."
+      ]
+    },
+    {
+      "org": "Convertist",
+      "role": "Operations Manager",
+      "dates": "Jul 2018 – Feb 2019",
+      "location": "Tucson, AZ",
+      "bullets": [
+        "Implemented outreach.io CRM for marketing outreach.",
+        "Trained and managed a team of sales interns and 9 contractors."
+      ]
+    },
+    {
+      "org": "Agent.ai",
+      "role": "Implementation Manager",
+      "dates": "Oct 2017 – Feb 2018",
+      "location": "Tucson, AZ",
+      "bullets": [
+        "Managed 7 multinational accounts across Europe and the US.",
+        "Led all software implementations company-wide."
+      ]
+    },
+    {
+      "org": "SmartThings",
+      "role": "Hiring Manager — Live Channel Support Team",
+      "dates": "Mar 2015 – Mar 2017",
+      "location": "Tucson, AZ",
+      "bullets": [
+        "Sourced and hired 30+ Tier 2 support representatives.",
+        "Developed, trained, and managed the Social Media Team."
+      ]
+    },
+    {
+      "org": "Lead Local",
+      "role": "Community Coordinator",
+      "dates": "Jan 2014 – Dec 2014",
+      "location": "Tucson, AZ",
+      "bullets": [
+        "Led weekly sessions for 5 cohorts of 5 college students.",
+        "Facilitated collaboration between student teams and nonprofit partners."
+      ]
+    }
+  ],
+  "skills": [
+    { "group": "Teaching & learning", "items": ["IEP development (learning)", "UDL & differentiated instruction", "Behavior support & FBA/BIP concepts", "Progress monitoring", "Family & team collaboration"] },
+    { "group": "From business", "items": ["Facilitation & training", "Coaching & active listening", "Program & project management", "Written communication", "Tool building & automation"] },
+    { "group": "Personal", "items": ["American Sign Language (ASL)", "Lived ADHD experience", "Empathy & patience", "Systems thinking"] }
+  ],
+  "projects": [
+    {
+      "title": "NES 601 Practice Quiz",
+      "desc": "A self-contained quiz app that serves an 80-question practice bank in sets of 10, grades each set, and shows correct answers. Built by parsing the study guide with pdftotext + Python, with the UI in vanilla JS.",
+      "link": "/quiz",
+      "linkLabel": "Try the demo",
+      "tags": ["Python", "JavaScript", "study tool"]
+    },
+    {
+      "title": "Obsidian study system",
+      "desc": "Every practice question I miss becomes a structured note: topic, correct answer, and why. Now 13 notes / 54 questions across three exams, synced into this site automatically.",
+      "link": "/journal",
+      "linkLabel": "Open the study journal",
+      "tags": ["Obsidian", "note-taking", "self-assessment"]
+    },
+    {
+      "title": "This progress portfolio",
+      "desc": "A static site hosted on Cloudflare Pages with a small API (Pages Functions + KV) so I can update milestones and scores as I go.",
+      "link": "/admin",
+      "linkLabel": "Update progress",
+      "tags": ["Cloudflare", "HTML/CSS/JS", "open build"]
+    }
+  ]
+}

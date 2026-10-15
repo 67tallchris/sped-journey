@@ -1,0 +1,142 @@
+/* Progress admin: edit milestones/tests and save to Cloudflare KV via /api/progress. */
+let DATA = null;
+const TOKEN_KEY = "sped-admin-token";
+
+(async function () {
+  DATA = await getProgress();
+  render();
+  const t = localStorage.getItem(TOKEN_KEY);
+  if (t) document.getElementById("token").value = t;
+})();
+
+function msg(text, kind) {
+  const el = document.getElementById("status");
+  el.className = "status-msg " + (kind || "");
+  el.textContent = text;
+  el.hidden = false;
+}
+
+function render() {
+  const el = document.getElementById("admin");
+  el.innerHTML = `
+    <div class="card" style="margin-bottom:18px">
+      <h3>Update token</h3>
+      <p class="muted small">Stored only in this browser. It's the <code>ADMIN_TOKEN</code> set on the
+      Cloudflare Pages project — required to write to the live progress store.</p>
+      <div class="token-row">
+        <input type="password" id="token" placeholder="ADMIN_TOKEN" style="flex:1;min-width:240px;padding:9px 12px;border:1px solid var(--line);border-radius:9px;font:inherit">
+        <button class="btn small" id="saveToken">Save token</button>
+      </div>
+      <div id="status" class="status-msg" hidden></div>
+    </div>
+
+    <div class="admin-form">
+      ${DATA.milestones.map((m, mi) => `
+        <div class="admin-milestone">
+          <div class="row">
+            <b style="flex:1">${esc(m.title)}</b>
+            <label class="small muted">Status
+              <select data-status="${mi}">
+                ${["done", "in-progress", "planned", "goal"].map(s =>
+                  `<option value="${s}" ${m.status === s ? "selected" : ""}>${statusLabel(s)}</option>`).join("")}
+              </select>
+            </label>
+          </div>
+          <div class="admin-tasks">
+            ${(m.tasks || []).map((t, ti) => `
+              <label><input type="checkbox" data-task="${mi}:${ti}" ${t.done ? "checked" : ""}> ${esc(t.label)}</label>`).join("")}
+          </div>
+        </div>`).join("")}
+
+      <div class="admin-milestone admin-tests">
+        <div class="row"><b style="flex:1">Exams</b>
+          <button class="btn small secondary" id="addTest">+ Add exam</button></div>
+        <table>
+          <thead><tr><th>Exam</th><th>Status</th><th>Target</th><th>Score</th><th>Note</th><th></th></tr></thead>
+          <tbody>
+            ${(DATA.tests || []).map((t, i) => `
+              <tr>
+                <td><input data-test="${i}:name" value="${esc(t.name)}"></td>
+                <td><input data-test="${i}:status" value="${esc(t.status)}" size="8"></td>
+                <td><input data-test="${i}:target" value="${esc(t.target)}" size="8"></td>
+                <td><input data-test="${i}:score" value="${esc(t.score)}" size="6"></td>
+                <td><input data-test="${i}:note" value="${esc(t.note)}"></td>
+                <td><button class="btn small secondary" data-del="${i}">×</button></td>
+              </tr>`).join("")}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="actions" style="margin-top:18px">
+      <button class="btn" id="save">Save to Cloudflare</button>
+      <button class="btn secondary" id="download">Download JSON</button>
+      <button class="btn secondary" id="reload">Reload live</button>
+    </div>
+    <p class="muted small">If the API isn't available (local preview), use <b>Download JSON</b> and
+    replace <code>data/progress.json</code> before redeploying.</p>`;
+
+  document.getElementById("saveToken").addEventListener("click", () => {
+    localStorage.setItem(TOKEN_KEY, document.getElementById("token").value.trim());
+    msg("Token saved in this browser.", "ok");
+  });
+  document.getElementById("addTest").addEventListener("click", () => {
+    DATA.tests = DATA.tests || [];
+    DATA.tests.push({ name: "", status: "studying", target: "", score: "", note: "" });
+    collect(); render();
+  });
+  el.querySelectorAll("[data-del]").forEach(b => b.addEventListener("click", () => {
+    collect();
+    DATA.tests.splice(Number(b.dataset.del), 1);
+    render();
+  }));
+  document.getElementById("save").addEventListener("click", save);
+  document.getElementById("download").addEventListener("click", download);
+  document.getElementById("reload").addEventListener("click", async () => { DATA = await getProgress(); render(); });
+}
+
+/* Read the form into DATA. */
+function collect() {
+  document.querySelectorAll("select[data-status]").forEach(sel => {
+    DATA.milestones[Number(sel.dataset.status)].status = sel.value;
+  });
+  document.querySelectorAll("input[data-task]").forEach(cb => {
+    const [mi, ti] = cb.dataset.task.split(":").map(Number);
+    DATA.milestones[mi].tasks[ti].done = cb.checked;
+  });
+  document.querySelectorAll("input[data-test]").forEach(inp => {
+    const [i, field] = inp.dataset.test.split(":");
+    if (DATA.tests[Number(i)]) DATA.tests[Number(i)][field] = inp.value;
+  });
+  DATA.updated = new Date().toISOString().slice(0, 10);
+}
+
+async function save() {
+  collect();
+  const token = document.getElementById("token").value.trim();
+  localStorage.setItem(TOKEN_KEY, token);
+  if (!token) { msg("Enter the admin token first.", "err"); return; }
+  try {
+    const res = await fetch("/api/progress", {
+      method: "PUT",
+      headers: { "content-type": "application/json", "Authorization": "Bearer " + token },
+      body: JSON.stringify(DATA)
+    });
+    const out = await res.json().catch(() => ({}));
+    if (res.status === 401) return msg("Unauthorized — token doesn't match ADMIN_TOKEN.", "err");
+    if (!res.ok) return msg(`Save failed (${res.status}): ${out.error || "unknown error"}`, "err");
+    msg(`Saved to Cloudflare at ${out.savedAt || "just now"}.`, "ok");
+  } catch (err) {
+    msg("API not reachable. Use Download JSON and commit data/progress.json instead.", "err");
+  }
+}
+
+function download() {
+  collect();
+  const blob = new Blob([JSON.stringify(DATA, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "progress.json";
+  a.click();
+  URL.revokeObjectURL(a.href);
+}

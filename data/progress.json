@@ -1,0 +1,106 @@
+{
+  "updated": "2026-10-15",
+  "title": "Critical path to a Special Education classroom",
+  "intro": "Four years ago I was an ADHD coach with a business degree. Here is the exact path I'm walking to become a Mild/Moderate Special Education teacher in Marana, Arizona — and how far along each step is.",
+  "milestones": [
+    {
+      "id": "masters",
+      "title": "Apply to a Master's in Special Education",
+      "short": "Apply to grad school",
+      "status": "in-progress",
+      "target": "Fall 2027 start",
+      "summary": "Apply to an Arizona EPP that leads to Mild/Moderate K–12 certification and can be stacked with Arizona Teachers Academy funding.",
+      "tasks": [
+        { "label": "Research Arizona EPP options (ASU, NAU, U of A, GCU)", "done": true },
+        { "label": "Compare ASU vs NAU M.Ed. programs in writing", "done": true },
+        { "label": "Write statement of purpose", "done": true },
+        { "label": "Update resume for education", "done": true },
+        { "label": "Request 3 professional references", "done": true },
+        { "label": "Submit ASU M.Ed. Special Education (Teacher Certification) application", "done": false },
+        { "label": "File FAFSA for the award year", "done": false },
+        { "label": "Admission interview + decision", "done": false }
+      ],
+      "evidence": [
+        { "label": "ASU vs NAU M.Ed. comparison note", "href": "journal.html#exams" },
+        { "label": "Statement of purpose (vault)", "href": "" }
+      ]
+    },
+    {
+      "id": "nes",
+      "title": "Pass the NES/AEPA Special Education 601",
+      "short": "Pass NES 601",
+      "status": "in-progress",
+      "target": "Spring 2027",
+      "summary": "State subject-knowledge exam required for the SPED certification area on the Alternative Teaching Certificate. Passing it early unlocks the hire.",
+      "tasks": [
+        { "label": "Build a study system in Obsidian", "done": true },
+        { "label": "Study notes for competencies 0001, 0002, 0003, 0005, 0006, 0007, 0008", "done": true },
+        { "label": "Study notes for competency 0004", "done": false },
+        { "label": "Build an 80-question practice quiz with grading", "done": true },
+        { "label": "Score 80%+ on a full practice run", "done": false },
+        { "label": "Register for NES 601 at aepa.nesinc.com", "done": false },
+        { "label": "Sit for and pass NES 601", "done": false }
+      ],
+      "evidence": [
+        { "label": "NES 601 practice quiz", "href": "quiz.html" },
+        { "label": "54 study questions in the journal", "href": "journal.html" }
+      ]
+    },
+    {
+      "id": "hire",
+      "title": "Get hired by MUSD as a SPED teacher of record",
+      "short": "Get hired at MUSD",
+      "status": "planned",
+      "target": "Spring 2027 hiring season",
+      "summary": "Use the alternative pathway: approved EPP enrollment → Alternative Teaching Certificate → hired as teacher of record while finishing the program.",
+      "tasks": [
+        { "label": "Adult/IVP fingerprint clearance card", "done": false },
+        { "label": "Substitute certificate application (foot in the door)", "done": false },
+        { "label": "Get admitted to an approved EPP → request enrollment verification letter", "done": false },
+        { "label": "Apply to ADE for the Alternative Teaching Certificate", "done": false },
+        { "label": "Apply to MUSD SPED openings (March–June)", "done": false },
+        { "label": "Interview and accept an offer", "done": false },
+        { "label": "First day as teacher of record", "done": false }
+      ],
+      "evidence": [
+        { "label": "Alternative certificate checklist", "href": "journal.html#checklist" },
+        { "label": "MUSD job board", "href": "https://jobs.redroverk12.com/org/maranaschools" }
+      ]
+    },
+    {
+      "id": "program",
+      "title": "Finish the master's program in the classroom",
+      "short": "Finish the program",
+      "status": "planned",
+      "target": "2028–2029",
+      "summary": "Complete coursework and the internship/student teaching requirement, ideally in my own classroom as the teacher of record.",
+      "tasks": [
+        { "label": "Maintain 3.0+ GPA through coursework", "done": false },
+        { "label": "Complete internship / supervised teaching in own classroom", "done": false },
+        { "label": "Pass Professional Knowledge exam + US/AZ Constitutions requirement", "done": false },
+        { "label": "Graduate with the M.Ed.", "done": false }
+      ],
+      "evidence": []
+    },
+    {
+      "id": "certificate",
+      "title": "Earn the Arizona Standard Professional SPED certificate",
+      "short": "Full teaching certificate",
+      "status": "goal",
+      "target": "2029",
+      "summary": "Convert from the alternative/intern certificate to the full Standard Professional Mild/Moderate K–12 certificate and keep growing in the classroom.",
+      "tasks": [
+        { "label": "Institutional Recommendation from the EPP", "done": false },
+        { "label": "Apply to ADE for Standard Professional Certificate (Mild/Moderate K–12)", "done": false },
+        { "label": "Complete the induction/mentoring period", "done": false },
+        { "label": "Teach SPED in Arizona long-term", "done": false }
+      ],
+      "evidence": []
+    }
+  ],
+  "tests": [
+    { "name": "NES/AEPA Special Education 601", "status": "studying", "target": "Spring 2027", "score": "", "note": "7 of 8 competencies have study notes; 80-question practice bank built." },
+    { "name": "AEPA/NES Elementary Education Subtest I (NT102)", "status": "studying", "target": "TBD", "score": "", "note": "4 competency notes written (phonics, reading, writing, social studies, geography)." },
+    { "name": "AEPA/NES Elementary Education Subtest II (NT103)", "status": "studying", "target": "TBD", "score": "", "note": "2 competency notes written (life science, earth & space science)." }
+  ]
+}

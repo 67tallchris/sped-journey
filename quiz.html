@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Practice Quiz — Chris Porter</title>
+<meta name="description" content="An interactive demo of the practice-test app built while preparing for the NES/AEPA Special Education exam.">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/">Chris <span>Porter</span></a>
+    <nav class="site-nav">
+      <a data-nav="home" href="/">Home</a>
+      <a href="/#path">Critical path</a>
+      <a href="/journal">Study journal</a>
+      <a class="cta" data-nav="quiz" href="/quiz">Quiz</a>
+      <a href="/#resume">Resume</a>
+      <a href="/admin">Update</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <div class="section-head">
+      <h2>Practice quiz</h2>
+      <p>I built this while studying: parse a study guide, serve questions in sets of 10, grade each set,
+      and explain every answer. This public demo uses 10 original sample questions.</p>
+    </div>
+    <div class="quiz-shell" id="quiz"></div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div><span id="year"></span> Chris Porter · study tool demo</div>
+    <div><a href="/journal">Study journal</a> · <a href="/">Home</a></div>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="assets/common.js"></script>
+<script src="assets/quiz.js"></script>
+</body>
+</html>

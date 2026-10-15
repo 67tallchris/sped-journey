@@ -1,0 +1,132 @@
+[
+  {
+    "number": 1,
+    "stem": "Under IDEA, what does 'free appropriate public education' (FAPE) primarily guarantee for a student with a disability?",
+    "options": [
+      { "letter": "A", "text": "The same curriculum and materials used by every general education student, with no changes allowed." },
+      { "letter": "B", "text": "Special education and related services designed to meet the student's unique needs, provided at no cost to the family." },
+      { "letter": "C", "text": "A private school placement paid for by the family, with partial reimbursement from the district." },
+      { "letter": "D", "text": "Exemption from state assessments and grade-level standards." }
+    ],
+    "answer": "B",
+    "objective": "IDEA fundamentals — FAPE",
+    "explanation": "FAPE means individualized special education and related services, at public expense, that meet the student's unique needs. It does not mean identical instruction or automatic private placement."
+  },
+  {
+    "number": 2,
+    "stem": "A student with a disability is capable of making progress in the general education classroom with supplementary aids and services. Which placement best reflects the least restrictive environment (LRE) requirement?",
+    "options": [
+      { "letter": "A", "text": "A self-contained special education classroom for all academic subjects." },
+      { "letter": "B", "text": "The general education classroom, with the supports and services the IEP team determines are needed." },
+      { "letter": "C", "text": "A home-based program until the student demonstrates grade-level performance." },
+      { "letter": "D", "text": "A separate school that specializes in the student's disability." }
+    ],
+    "answer": "B",
+    "objective": "IDEA fundamentals — least restrictive environment",
+    "explanation": "LRE requires that students with disabilities be educated with peers without disabilities to the maximum extent appropriate, and removed only when supports in the general classroom are not sufficient."
+  },
+  {
+    "number": 3,
+    "stem": "A student has a reading disability and reads two grade levels below peers. The team decides the student will read shorter, below-grade-level passages on comprehension tests. This change is best described as:",
+    "options": [
+      { "letter": "A", "text": "An accommodation, because the student is still tested on the same content." },
+      { "letter": "B", "text": "A modification, because the content or performance expectation has been changed." },
+      { "letter": "C", "text": "An assistive technology service." },
+      { "letter": "D", "text": "A related service under IDEA." }
+    ],
+    "answer": "B",
+    "objective": "Accommodations vs. modifications",
+    "explanation": "Accommodations change how a student accesses or demonstrates learning; modifications change what is taught or the performance standard. Changing the reading level of the test changes the expectation, so it is a modification."
+  },
+  {
+    "number": 4,
+    "stem": "Which of the following is required to be part of every IEP team meeting for a student with a disability?",
+    "options": [
+      { "letter": "A", "text": "The school principal" },
+      { "letter": "B", "text": "The student's general education teacher, in all cases" },
+      { "letter": "C", "text": "The parents, a special education teacher, and a local education agency representative" },
+      { "letter": "D", "text": "A school psychologist" }
+    ],
+    "answer": "C",
+    "objective": "IEP team composition",
+    "explanation": "IDEA requires the parents, at least one special education teacher, and an LEA representative, plus a general education teacher when the student is or may be in general education. The principal and school psychologist are not automatic members."
+  },
+  {
+    "number": 5,
+    "stem": "A special education teacher gives a one-minute oral reading fluency probe each week and graphs the number of words read correctly. This is an example of:",
+    "options": [
+      { "letter": "A", "text": "Summative assessment" },
+      { "letter": "B", "text": "Progress monitoring" },
+      { "letter": "C", "text": "Diagnostic evaluation" },
+      { "letter": "D", "text": "Norm-referenced testing" }
+    ],
+    "answer": "B",
+    "objective": "Assessment — progress monitoring",
+    "explanation": "Frequent, brief, repeated measures of a specific skill—graphed over time—are progress monitoring. They show whether instruction is working and inform changes to the intervention."
+  },
+  {
+    "number": 6,
+    "stem": "A student repeatedly leaves their seat and calls out during independent work. The team wants to understand why the behavior happens before writing a plan. The most appropriate first step is:",
+    "options": [
+      { "letter": "A", "text": "Add a daily behavior report card." },
+      { "letter": "B", "text": "Conduct a functional behavioral assessment (FBA)." },
+      { "letter": "C", "text": "Move the student to a desk next to the teacher." },
+      { "letter": "D", "text": "Send the student to the office each time the behavior occurs." }
+    ],
+    "answer": "B",
+    "objective": "Behavior — FBA and BIP",
+    "explanation": "An FBA gathers data (ABC observation, interviews, record review) to identify the function of the behavior. A behavior intervention plan (BIP) based on that function is far more effective than choosing strategies at random."
+  },
+  {
+    "number": 7,
+    "stem": "Which of the following is the most accurate description of dyslexia?",
+    "options": [
+      { "letter": "A", "text": "A vision problem that causes letters to appear reversed." },
+      { "letter": "B", "text": "A language-based learning disability characterized by difficulty with accurate and fluent word reading and spelling." },
+      { "letter": "C", "text": "A lack of motivation to read caused by poor instruction." },
+      { "letter": "D", "text": "A form of intellectual disability." }
+    ],
+    "answer": "B",
+    "objective": "Specific learning disabilities — dyslexia",
+    "explanation": "Dyslexia is a specific learning disability with a neurobiological basis, typically involving phonological processing. It is not a vision problem, a motivation issue, or an intellectual disability."
+  },
+  {
+    "number": 8,
+    "stem": "A general education teacher asks how to better support a student with ADHD during long written assignments. Which support is most appropriate?",
+    "options": [
+      { "letter": "A", "text": "Reduce the number of items the student must master each grading period." },
+      { "letter": "B", "text": "Break the assignment into smaller chunks with frequent check-ins and brief movement breaks." },
+      { "letter": "C", "text": "Excuse the student from written assignments and grade participation instead." },
+      { "letter": "D", "text": "Seat the student apart from peers and remove all visual materials from the area." }
+    ],
+    "answer": "B",
+    "objective": "Instructional supports — ADHD",
+    "explanation": "Chunking, check-ins, and movement breaks are accommodations that support attention and executive function without lowering the learning standard. Reducing mastery expectations or excusing the work would be modifications."
+  },
+  {
+    "number": 9,
+    "stem": "Under IDEA, when must transition planning and postsecondary goals first be included in a student's IEP?",
+    "options": [
+      { "letter": "A", "text": "By the time the student turns 14, in every state" },
+      { "letter": "B", "text": "By the time the student turns 16 (or earlier if the state or IEP team requires it)" },
+      { "letter": "C", "text": "Only in the student's final year of high school" },
+      { "letter": "D", "text": "Only after the student has exited high school" }
+    ],
+    "answer": "B",
+    "objective": "Transition planning",
+    "explanation": "IDEA requires transition services to be addressed in the IEP beginning no later than the first IEP in effect when the student turns 16, though states and teams may start earlier. Transition planning is an ongoing, age-appropriate process, not a senior-year event."
+  },
+  {
+    "number": 10,
+    "stem": "A teacher plans a lesson with multiple ways for students to access content, multiple ways to engage, and multiple ways to show what they know. This approach is known as:",
+    "options": [
+      { "letter": "A", "text": "Direct instruction" },
+      { "letter": "B", "text": "Universal Design for Learning (UDL)" },
+      { "letter": "C", "text": "Response to Intervention (RTI)" },
+      { "letter": "D", "text": "Discrete trial training" }
+    ],
+    "answer": "B",
+    "objective": "Instructional design — UDL",
+    "explanation": "UDL is a framework built on multiple means of engagement, representation, and action/expression. It is designed to remove barriers for all learners from the start rather than retrofitting supports for individuals."
+  }
+]

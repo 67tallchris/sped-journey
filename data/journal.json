@@ -1,0 +1,859 @@
+{
+  "source": "Obsidian vault · 05 - AEPA Study",
+  "updated": "2026-10",
+  "noteCount": 13,
+  "questionCount": 54,
+  "exams": [
+    {
+      "exam": "NES/AEPA Special Education",
+      "notes": 7,
+      "questions": 33,
+      "competencies": [
+        "0001 – Understanding Students with Disabilities",
+        "0002 – Referral, Development & Assistive Technology",
+        "0003 – Assessment & Evaluation",
+        "0005 – Instructional Methods & Classroom Environment",
+        "0006 – Reading & Writing Instruction",
+        "0007 – Decision-Making, Problem Solving & Social Skills",
+        "0008 – Functional Skills & Transition"
+      ]
+    },
+    {
+      "exam": "AEPA/NES Elementary Education Subtest I (NT102)",
+      "notes": 4,
+      "questions": 16,
+      "competencies": [
+        "0003 – Phonics & Spelling",
+        "0005 – Writing Process & Organization",
+        "0007 – Social Studies",
+        "0008 – Geography & Human Migration"
+      ]
+    },
+    {
+      "exam": "AEPA/NES Elementary Education Subtest II (NT103)",
+      "notes": 2,
+      "questions": 5,
+      "competencies": [
+        "0005 – Life Science",
+        "0006 – Physical, Earth & Space Sciences"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "aepa-nes-elementary-ed-subtest-i-competency-0003-phonics-and-spelling",
+      "title": "AEPA/NES Elementary Ed Subtest I – Competency 0003: Phonics & Spelling",
+      "exam": "AEPA/NES Elementary Education Subtest I (NT102)",
+      "competency": "0003 – Phonics & Spelling",
+      "status": "in-progress",
+      "folder": ".",
+      "questions": [
+        {
+          "n": 1,
+          "topic": "Best way to BEGIN teaching phonics",
+          "answer": "to decode words with simple patterns.",
+          "why": [
+            "Phonics instruction should be systematic and sequential: start with the simplest, most regular letter–sound correspondences and simple word patterns (e.g., CVC words: cat, dog, sun) before moving to complex patterns.",
+            "Beginning readers need to learn a few reliable sound–letter relationships first, then blend them to decode — not memorize whole words (that's sight word / whole-language approach) and not start with complex rules/irregular words.",
+            "Typical progression:"
+          ],
+          "hasQuoted": true,
+          "quotedChars": 166
+        },
+        {
+          "n": 2,
+          "topic": "Emergent spellers — what does NOT help",
+          "answer": "homework that requires the student to write the spelling words over and over",
+          "why": [
+            "Emergent spellers are at the earliest stage of spelling development (pre-phonetic / pre-alphabetic). Their spelling looks like scribbles, random letters, or simple sound-letter approximations (e.g., \"kt\" for cat).",
+            "What they DO benefit from:",
+            "Invented spelling / writing — writing phonetically, which builds letter–sound connections",
+            "Word sorts and hands-on word study (classifying by pattern)",
+            "Environmental print (familiar words from the world around them)",
+            "Shared writing / modeled writing and playing with sounds (phonemic awareness games)",
+            "Rote copying (writing the same list word 10 times) requires memorization and fine-motor repetition without meaning or sound-symbol engagement — research shows it is ineffective for emergent spellers (too advanced, disconnected from how their spelling develops)."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 244
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "aepa-nes-elementary-ed-subtest-i-competency-0005-writing-process-and-organization",
+      "title": "AEPA/NES Elementary Ed Subtest I – Competency 0005: Writing Process & Organization",
+      "exam": "AEPA/NES Elementary Education Subtest I (NT102)",
+      "competency": "0005 – Writing Process & Organization",
+      "status": "in-progress",
+      "folder": ".",
+      "questions": [
+        {
+          "n": 1,
+          "topic": "Purpose of brainstorming as a prewriting strategy",
+          "answer": "recall prior knowledge and vocabulary that they have already learned.",
+          "why": [
+            "Brainstorming is an open, non-judgmental prewriting technique in which students freely generate and share ideas, words, and associations on a topic.",
+            "Its primary function is activating prior knowledge: pulling up what students already know and the vocabulary they already possess, which then feeds into organizing and drafting.",
+            "Brainstorming is not primarily for polishing grammar, sequencing events, or gathering new research — it taps into existing knowledge first."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 210
+        },
+        {
+          "n": 2,
+          "topic": "Organizational arrangement for a proposal presentation",
+          "answer": "Chronological arrangement.",
+          "why": [
+            "A chronological arrangement presents information in time order — e.g., first quarter, second quarter, third quarter, fourth quarter, or steps in sequence.",
+            "For a proposal outlining a plan to increase sales, a step-by-step/time-ordered structure gives employees a clear sequence of actions to follow, making the plan easy to track and implement.",
+            "It focuses attention because listeners can anticipate what comes next (what happens first, then what, then what), unlike other arrangements:",
+            "Comparison/contrast — weighs two or more options side by side",
+            "Cause/effect — explains why something happens and its results",
+            "Problem/solution — identifies an issue then proposes a fix",
+            "Spatial — organizes by physical location",
+            "Rule of thumb: any time the content is a process, procedure, plan of action, or sequence of events, chronological/organizational-in-time order is the strongest choice."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 321
+        },
+        {
+          "n": 3,
+          "topic": "Previewing content in a presentation — what it uses",
+          "answer": "elements of introductions.",
+          "why": [
+            "A presentation's introduction typically contains elements that orient the audience: a hook/attention-getter, background context, and a preview/thesis statement — a summary of what will be discussed.",
+            "Previewing (\"Today I will talk about…\") tells listeners what to expect and sets up the structure of the presentation, so it belongs to the introductory stage, not the body, conclusion, or transitions.",
+            "Common introduction elements to remember: (Contrast: the conclusion restates/reinforces what was already discussed; transitions link parts together.)"
+          ],
+          "hasQuoted": true,
+          "quotedChars": 124
+        }
+      ],
+      "questionCount": 3
+    },
+    {
+      "id": "aepa-nes-elementary-ed-subtest-i-competency-0007-social-studies",
+      "title": "AEPA/NES Elementary Ed Subtest I – Competency 0007: Social Studies",
+      "exam": "AEPA/NES Elementary Education Subtest I (NT102)",
+      "competency": "0007 – Social Studies",
+      "status": "in-progress",
+      "folder": ".",
+      "questions": [
+        {
+          "n": 1,
+          "topic": "Turning points in the Vietnam War for the U.S.",
+          "answer": "the Gulf of Tonkin Incident/Resolution AND the Tet Offensive",
+          "why": [
+            "Gulf of Tonkin (August 1964) — alleged North Vietnamese attacks on the U.S. destroyer Maddox in the Gulf of Tonkin led Congress to pass the Gulf of Tonkin Resolution, which gave President Lyndon B. Johnson broad authority to use military force. This marked the turning point of massive U.S. escalation (troops grew from ~16,000 to over 500,000).",
+            "Tet Offensive (January 1968) — a surprise, coordinated attack by North Vietnamese and Viet Cong forces during the Tet (Lunar New Year) holiday, including an assault on the U.S. Embassy in Saigon. Militarily it was a defeat for the communists, but it was a turning point in public opinion — Americans saw the war as unwinnable, leading to de-escalation and the beginning of U.S. withdrawal."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 178
+        },
+        {
+          "n": 2,
+          "topic": "Event marking the end of World War II",
+          "answer": "V-J Day.",
+          "why": [
+            "V-J Day (Victory over Japan Day) marks Japan's surrender — announced August 15, 1945, with the formal signing on September 2, 1945 aboard the USS Missouri in Tokyo Bay.",
+            "It ended the Pacific War and thus World War II as a whole. (Contrast: V-E Day, May 8, 1945, ended the war in Europe only.)"
+          ],
+          "hasQuoted": true,
+          "quotedChars": 65
+        },
+        {
+          "n": 3,
+          "topic": "Supreme Court case that reversed Plessy v. Ferguson",
+          "answer": "Brown v. Board of Education of Topeka, Kansas (1954).",
+          "why": [
+            "Plessy v. Ferguson (1896) established the \"separate but equal\" doctrine, upholding racial segregation.",
+            "Brown v. Board of Education (1954) reversed it: the Court unanimously ruled that racial segregation in public schools violated the Equal Protection Clause of the 14th Amendment — \"separate educational facilities are inherently unequal.\""
+          ],
+          "hasQuoted": true,
+          "quotedChars": 130
+        },
+        {
+          "n": 4,
+          "topic": "Goal of Black leaders in encouraging Black participation in the Civil War",
+          "answer": "eventually earn U.S. citizenship for blacks.",
+          "why": [
+            "Roughly 180,000 Black soldiers served in the Union Army (United States Colored Troops, USCT), often under Black leaders like Frederick Douglass who recruited them.",
+            "Douglass and other leaders argued that fighting for the Union would be a claim to full citizenship — military service would prove worthiness for and earn citizenship and equal rights once the war was won."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 154
+        },
+        {
+          "n": 5,
+          "topic": "President who signed the Organic Act creating Arizona Territory",
+          "answer": "Abraham Lincoln.",
+          "why": [
+            "The Arizona Organic Act (February 24, 1863), signed by President Abraham Lincoln, created the Arizona Territory as a separate entity from the New Mexico Territory (during the Civil War, in part to establish a Union-friendly administration in the region)."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 145
+        },
+        {
+          "n": 6,
+          "topic": "Most important labor supply in the 17th-century Chesapeake colonies",
+          "answer": "indentured servants.",
+          "why": [
+            "The Chesapeake colonies (Virginia and Maryland) were built around the tobacco economy, which required huge amounts of labor.",
+            "In the 1600s, that labor came primarily from indentured servants — people who worked for a fixed term (usually 4–7 years) in exchange for passage to America.",
+            "The headright system (land grants for importing workers) encouraged their importation. Enslaved African labor existed but only became the dominant labor force in the late 17th century, largely after Bacon's Rebellion (1676)."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 120
+        },
+        {
+          "n": 7,
+          "topic": "What the Federalist Papers supported",
+          "answer": "the Constitution.",
+          "why": [
+            "The Federalist Papers — 85 essays written by Alexander Hamilton, James Madison, and John Jay (under the pen name \"Publius,\" 1787–1788) — argued for the ratification of the U.S. Constitution.",
+            "They explained and defended the Constitution's structure (separation of powers, checks and balances, federalism) to win over skeptical states."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 81
+        },
+        {
+          "n": 8,
+          "topic": "What Thomas Paine's Common Sense supported",
+          "answer": "the need for Americans to break their ties with their mother country",
+          "why": [
+            "Published January 1776, Common Sense was a plain-spoken pamphlet that attacked monarchy and argued for American independence from Great Britain.",
+            "It was widely read and is credited with swinging colonial public opinion toward independence, helping set the stage for the Declaration of Independence that July."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 166
+        },
+        {
+          "n": 9,
+          "topic": "What the Ancient Athenians are credited with",
+          "answer": "establishing governments based on democratic elements.",
+          "why": [
+            "Athens is credited with developing democracy — specifically a form of direct democracy in which citizens (adult male Athenians) participated in the Assembly and voted on laws and policies.",
+            "Key reforms: Solon (early reforms), and especially Cleisthenes (~508 BCE), often called the \"father of Athenian democracy.\" The Greek word demokratia means \"rule by the people.\""
+          ],
+          "hasQuoted": true,
+          "quotedChars": 114
+        },
+        {
+          "n": 10,
+          "topic": "Similarity in the work of scientists and philosophers in the Scientific Revolution & Enlightenment",
+          "answer": "they examined natural laws governing the universe.",
+          "why": [
+            "During the Scientific Revolution (Copernicus, Galileo, Newton), scientists discovered that the physical universe operates according to discoverable natural laws (e.g., Newton's laws of motion and gravity).",
+            "Enlightenment thinkers (Locke, Montesquieu, Voltaire) applied the same idea to human society — seeking the natural laws governing politics, government, and human behavior (natural rights, separation of powers).",
+            "The shared thread: reason, observation, and order — both movements believed the universe and society are governed by natural laws that people can discover."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 195
+        }
+      ],
+      "questionCount": 10
+    },
+    {
+      "id": "aepa-nes-elementary-ed-subtest-i-competency-0008-geography-and-human-migration",
+      "title": "AEPA/NES Elementary Ed Subtest I – Competency 0008: Geography & Human Migration",
+      "exam": "AEPA/NES Elementary Education Subtest I (NT102)",
+      "competency": "0008 – Geography & Human Migration",
+      "status": "in-progress",
+      "folder": ".",
+      "questions": [
+        {
+          "n": 1,
+          "topic": "Why most people emigrate today",
+          "answer": "they think they will have better economic success.",
+          "why": [
+            "Migration is the movement of people from one place to another; emigration is leaving a country, immigration is entering a country.",
+            "Most migration today is driven by economic factors — people move seeking jobs, higher wages, and a better standard of living (\"economic migrants\").",
+            "Migration is often explained by push and pull factors:",
+            "Push factors (drive people away): poverty, unemployment, war/conflict, famine, lack of opportunity",
+            "Pull factors (attract people to a place): jobs, higher pay, economic opportunity, safety, freedom, family ties",
+            "While refugees flee safety/conflict and some move for education or family, the dominant reason for most emigration worldwide remains economic opportunity — the expectation of better economic success."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 154
+        }
+      ],
+      "questionCount": 1
+    },
+    {
+      "id": "aepa-nes-elementary-ed-subtest-ii-competency-0005-life-science",
+      "title": "AEPA/NES Elementary Ed Subtest II – Competency 0005: Life Science",
+      "exam": "AEPA/NES Elementary Education Subtest II (NT103)",
+      "competency": "0005 – Life Science",
+      "status": "in-progress",
+      "folder": ".",
+      "questions": [
+        {
+          "n": 1,
+          "topic": "What puts frogs in a different phylum than squid, snails, and jellyfish",
+          "answer": "frogs have backbones.",
+          "why": [
+            "Kingdom Animalia is divided into phyla partly by the presence or absence of a backbone (vertebral column):",
+            "Squid and snails → phylum Mollusca (soft bodies, often with shells)",
+            "Jellyfish → phylum Cnidaria (radially symmetric, stinging cells)",
+            "All three are invertebrates — no backbone",
+            "Frogs are vertebrates → phylum Chordata (animals with a backbone/notochord at some stage).",
+            "So the classifying characteristic is the presence of a backbone — frogs have one; squid, snails, and jellyfish do not."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 191
+        },
+        {
+          "n": 2,
+          "topic": "Science term for plants producing oxygen into the environment",
+          "answer": "Respiration.",
+          "why": [
+            "Per the answer key of this practice material, the expected answer is respiration. Some elementary-level materials use \"respiration\" loosely to describe plants' gas exchange with the environment (taking in CO₂, releasing O₂).",
+            "However, strictly speaking:",
+            "Photosynthesis is the process by which plants produce oxygen (using sunlight, water, and CO₂ to make glucose + O₂).",
+            "Cellular respiration is the process by which organisms use oxygen and glucose to release energy (producing CO₂).",
+            "On the actual AEPA/NES exam, if the question asks about plants producing/releasing oxygen, the scientifically precise answer is photosynthesis — but if a question mirrors this practice item exactly, go with its answer key (respiration)."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 136
+        },
+        {
+          "n": 3,
+          "topic": "Difference between plant and animal cells",
+          "answer": "a cell wall.",
+          "why": [
+            "Plant cells have structures that animal cells lack:",
+            "Animal cells have a cell membrane only (no cell wall), no chloroplasts, and small/no central vacuole.",
+            "Both cell types DO have: cell membrane, nucleus, cytoplasm, mitochondria, and ribosomes."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 101
+        }
+      ],
+      "questionCount": 3
+    },
+    {
+      "id": "aepa-nes-elementary-ed-subtest-ii-competency-0006-physical-earth-and-space-sciences",
+      "title": "AEPA/NES Elementary Ed Subtest II – Competency 0006: Physical, Earth & Space Sciences",
+      "exam": "AEPA/NES Elementary Education Subtest II (NT103)",
+      "competency": "0006 – Physical, Earth & Space Sciences",
+      "status": "in-progress",
+      "folder": ".",
+      "questions": [
+        {
+          "n": 1,
+          "topic": "What is NOT a cause of erosion in a coastal mountain range",
+          "answer": "tornadic activity in the plains near the range.",
+          "why": [
+            "Erosion is the process by which weathered rock and soil are moved by natural agents: moving water (streams/rivers), waves, glaciers, wind, and gravity (mass wasting).",
+            "In a coastal mountain range (e.g., the Coast Ranges of the Pacific Northwest), erosion is driven mainly by:",
+            "Running water — streams and rivers cutting valleys",
+            "Glaciers — carving U-shaped valleys (especially in ranges like the Cascades or Coast Mountains)",
+            "Wave action — eroding the coastal side of the range",
+            "Gravity — landslides, rockfalls, downhill creep",
+            "Tornadic activity in the plains near the range happens in flat, distant terrain (e.g., Great Plains), not in the mountains themselves — tornadoes are not a significant cause of erosion in a coastal mountain range."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 158
+        },
+        {
+          "n": 2,
+          "topic": "Rock formed when magma below Earth's surface cools and combines with other materials",
+          "answer": "Metamorphic",
+          "why": [
+            "Per the answer key of this practice material, the expected answer is metamorphic — the reasoning being that magma intruding below the surface brings extreme heat and pressure, which transforms surrounding rock into metamorphic rock (contact metamorphism).",
+            "Strictly speaking, however:",
+            "Magma that cools and crystallizes — whether below the surface (intrusive, e.g., granite) or above (extrusive, e.g., basalt) — forms igneous rock.",
+            "Metamorphic rock forms when existing rock is changed by heat and/or pressure (e.g., limestone → marble, shale → slate) — it does not form directly from magma cooling.",
+            "On the actual AEPA/NES exam, if asked what rock magma forms when it cools, the scientifically precise answer is igneous. If a question mirrors this practice item exactly (heat/pressure of magma affecting surrounding materials), go with its answer key (metamorphic)."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 202
+        }
+      ],
+      "questionCount": 2
+    },
+    {
+      "id": "aepa-nes-special-education-competency-0001-understanding-students-with-disabilities",
+      "title": "NES Special Education – Competency 0001: Understanding Students with Disabilities",
+      "exam": "NES/AEPA Special Education",
+      "competency": "0001 – Understanding Students with Disabilities",
+      "status": "in-progress",
+      "folder": "Special Education",
+      "questions": [
+        {
+          "n": 1,
+          "topic": "Common factors contributing to emotional disabilities",
+          "answer": "biology, home and community concerns, and school concerns.",
+          "why": [
+            "Emotional/behavioral disabilities are understood through an ecological/multifactorial view — no single cause; three interacting categories are most commonly cited:",
+            "These factors interact: e.g., a biological predisposition + stressful home + school failure can produce an emotional disability."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 256
+        },
+        {
+          "n": 2,
+          "topic": "Definition of impulsivity",
+          "answer": "behavior without concern for consequences.",
+          "why": [
+            "Impulsivity = acting quickly, without forethought — doing something without stopping to consider the outcomes/consequences.",
+            "It is a hallmark of ADHD (also common in some students with learning disabilities): blurting out answers, interrupting, acting before thinking.",
+            "Contrast with related terms:",
+            "Inattention — difficulty sustaining focus",
+            "Hyperactivity — excessive movement/restlessness",
+            "Distractibility — attention pulled away by stimuli"
+          ],
+          "hasQuoted": true,
+          "quotedChars": 163
+        },
+        {
+          "n": 3,
+          "topic": "Everyday-skills difficulties in intellectual disability",
+          "answer": "adaptive behavior.",
+          "why": [
+            "Intellectual disability is defined by both:",
+            "Both must be present, with onset before age 18 (AAIDD/DSM-5 definition). \"Everyday skills expected of people their age\" = adaptive behavior — not IQ alone."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 265
+        },
+        {
+          "n": 4,
+          "topic": "Who is included in orthopedic and other health impairments",
+          "answer": "all three — children with epilepsy, children with ADHD, and children with muscular or skeletal conditions.",
+          "why": [
+            "Other Health Impairment (OHI) — limited strength, vitality, or alertness due to chronic/acute health problems. Under IDEA, includes: ADHD, epilepsy, asthma, diabetes, heart conditions, hemophilia, lead poisoning, leukemia, sickle cell anemia, Tourette syndrome.",
+            "Orthopedic Impairment — severe skeletal/muscular impairments affecting motor function. Includes: muscular or skeletal conditions (e.g., cerebral palsy, amputations, muscular dystrophy, spina bifida, fractures/burns causing contractures).",
+            "Together, \"orthopedic and other health impairments\" span an extremely diverse population — from students with mild health conditions to those with significant motor disabilities — hence the low rate of incidence but wide range of needs."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 305
+        }
+      ],
+      "questionCount": 4
+    },
+    {
+      "id": "aepa-nes-special-education-competency-0002-referral-health-impairments-and-assistive-technology",
+      "title": "NES Special Education – Competency 0002: Referral, Health Impairments & Assistive Technology",
+      "exam": "NES/AEPA Special Education",
+      "competency": "0002 – Referral, Development & Assistive Technology",
+      "status": "in-progress",
+      "folder": "Special Education",
+      "questions": [
+        {
+          "n": 1,
+          "topic": "Why teachers are reluctant to refer young students for LD testing",
+          "answer": "developmental differences might be misdiagnosed as a specific learning disability.",
+          "why": [
+            "Young children develop at very different rates — what looks like a learning problem may simply be a normal developmental difference (a \"late bloomer\") that resolves with time.",
+            "Teachers therefore often use a \"wait and see\" / response-to-intervention (RTI) approach before referring, to avoid false positives — labeling a child with an LD when the real cause is developmental immaturity, lack of readiness, or limited experience.",
+            "Premature testing can lead to misdiagnosis and inappropriate placement."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 256
+        },
+        {
+          "n": 2,
+          "topic": "Students with complex health care needs — what they're called",
+          "answer": "medically fragile.",
+          "why": [
+            "Medically fragile describes students with complex, often life-threatening health conditions who depend on technology (ventilators, feeding tubes, monitors) and close medical supervision to survive.",
+            "Advances in medicine keep more of these children alive, and schools now educate them rather than serving them only at home — requiring school nursing services, training, and care plans (e.g., 504 plans or IEP health services).",
+            "Related terms: \"technology-dependent,\" \"health impaired\" (OHI category)."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 357
+        },
+        {
+          "n": 3,
+          "topic": "Why teachers and parents must be trained for motor development programs",
+          "answer": "so they do not put the child at risk for injury.",
+          "why": [
+            "Children with orthopedic impairments may have fragile bones, limited muscle control, contractures, or medical equipment (braces, feeding tubes, wheelchairs).",
+            "Improper positioning, lifting, or handling can cause physical injury — joint damage, falls, pressure sores, or aggravation of the condition.",
+            "Training teaches safe techniques: correct lifting/transferring, positioning, range-of-motion exercises, and use of mobility aids — the priority is always safety."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 215
+        },
+        {
+          "n": 4,
+          "topic": "Most common and versatile assistive technology for orthopedic impairments",
+          "answer": "a personal computer.",
+          "why": [
+            "A computer is the most common and most versatile AT tool because it can be adapted to nearly any motor limitation:",
+            "Input alternatives: adapted keyboards, on-screen keyboards, switches, voice/speech recognition, eye gaze, trackballs/joysticks",
+            "Output/access: word prediction, text-to-speech, enlarged displays",
+            "One computer can serve writing, communication, learning, and environmental control — making it more versatile than any single dedicated device (e.g., a communication board or adapted pencil)."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 217
+        },
+        {
+          "n": 5,
+          "topic": "Math disability characteristic",
+          "answer": "have deficits related to memory.",
+          "why": [
+            "Math learning relies heavily on memory — recalling math facts (addition, multiplication), procedures, steps, and formulas from working memory while solving problems.",
+            "Most students with math disabilities (dyscalculia) show working-memory and retrieval deficits: they can't hold steps in mind or rapidly recall facts, even when computation is understood.",
+            "Typical supports: mnemonics, fact drills with spaced review, step-by-step checklists, manipulatives, and reducing demands on memory (e.g., fact charts, calculators)."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 99
+        }
+      ],
+      "questionCount": 5
+    },
+    {
+      "id": "aepa-nes-special-education-competency-0003-assessment-and-evaluation",
+      "title": "NES Special Education – Competency 0003: Assessment & Evaluation",
+      "exam": "NES/AEPA Special Education",
+      "competency": "0003 – Assessment & Evaluation",
+      "status": "in-progress",
+      "folder": "Special Education",
+      "questions": [
+        {
+          "n": 1,
+          "topic": "How discrimination in testing occurs for culturally diverse children",
+          "answer": "all three — evaluators fail to test in the child's primary language/use bilingual techniques, culturally diverse populations are not properly represented in test standardization, and test items involve cultural bias.",
+          "why": [
+            "Three recognized sources of testing discrimination:",
+            "IDEA requires nondiscriminatory evaluation: tests must be administered in the child's native language, be valid for their intended purpose, and use multiple measures — no single test may determine placement.",
+            "Result of bias: overrepresentation of culturally diverse students in special education (and underrepresentation in gifted programs)."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 402
+        },
+        {
+          "n": 2,
+          "topic": "Reducing test anxiety",
+          "answer": "be clear about expectations for achievement, the information covered for the test, and test dates.",
+          "why": [
+            "Test anxiety is fueled by uncertainty. Clear, predictable information reduces it:",
+            "What is expected — achievement expectations",
+            "What is covered — content/scope of the test",
+            "When — test dates well in advance",
+            "Additional strategies: practice/pretests, teaching test-taking skills, positive supportive environment, and reasonable accommodations — but clear expectations and advance notice are the core."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 290
+        },
+        {
+          "n": 3,
+          "topic": "Criteria for using assessment data to evaluate progress",
+          "answer": "all three — the data's authenticity, reliability, and validity.",
+          "why": [
+            "Reliability — consistency: does the assessment give stable results across time/ratters?",
+            "Validity — does the assessment measure what it claims to measure? (e.g., a math test must actually test math, not reading)",
+            "Authenticity — does the assessment reflect real, meaningful tasks from the student's actual learning environment?",
+            "All three must be considered before trusting data for instructional decisions; a reliable test can still be invalid, and an authentic task still needs reliability."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 197
+        },
+        {
+          "n": 4,
+          "topic": "Assessment tool for progress at triennial reevaluation",
+          "answer": "a standardized achievement test administered individually.",
+          "why": [
+            "IDEA requires reevaluation at least every 3 years (the \"triennial\"), and more often if needed.",
+            "An individually administered standardized achievement test (e.g., Woodcock-Johnson, WIAT) — given one-on-one by a trained examiner — provides norm-referenced measures of reading and math achievement, ideal for comparing progress to same-age peers at reevaluation time.",
+            "For more frequent progress monitoring, teachers typically use curriculum-based measurement (CBM) probes — but for the formal 3-year reevaluation, the individually administered standardized achievement test is the standard tool."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 310
+        },
+        {
+          "n": 5,
+          "topic": "What an adaptive behavior assessment reveals (Williams Syndrome)",
+          "answer": "the student's ability to perform self-help and social skills.",
+          "why": [
+            "Adaptive behavior = the everyday conceptual, social, and practical skills needed to function independently: self-help/self-care (dressing, feeding, hygiene), social skills, communication, home living, safety.",
+            "Adaptive behavior scales (e.g., Vineland, ABAS) are completed via interviews/ratings by parents and teachers — they measure daily functioning, not IQ/academics.",
+            "For Williams Syndrome (often strong language/social warmth but significant daily-living challenges), adaptive behavior data documents the self-help and social domains needing support."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 262
+        },
+        {
+          "n": 6,
+          "topic": "Pinpointing what part of a word problem needs instruction",
+          "answer": "perform a mathematics task analysis.",
+          "why": [
+            "Task analysis breaks a complex skill into its component steps in sequence — for a word problem: read/understand it, identify known and unknown information, choose the operation, set up/solve the computation, check the answer.",
+            "By analyzing which specific step the student fails, the teacher pinpoints exactly where instruction is needed and can teach/reteach that component (chaining steps as needed)."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 257
+        },
+        {
+          "n": 7,
+          "topic": "What portfolio assessments document for IEP teams",
+          "answer": "they show how effective instruction has been in aiding a student's growth.",
+          "why": [
+            "A portfolio is a purposeful collection of the student's work over time (samples, drafts, projects, teacher notes) that demonstrates progress and growth on IEP goals.",
+            "Portfolios are authentic: they show real products and improvement (e.g., writing samples across the year), providing evidence of instructional effectiveness — complementing standardized test data at IEP meetings."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 194
+        }
+      ],
+      "questionCount": 7
+    },
+    {
+      "id": "aepa-nes-special-education-competency-0005-instructional-methods-and-classroom-environment",
+      "title": "NES Special Education – Competency 0005: Instructional Methods & Classroom Environment",
+      "exam": "NES/AEPA Special Education",
+      "competency": "0005 – Instructional Methods & Classroom Environment",
+      "status": "in-progress",
+      "folder": "Special Education",
+      "questions": [
+        {
+          "n": 1,
+          "topic": "Why students with disabilities struggle with word problems",
+          "answer": "both — because many word problems require a high level of math skill AND a high level of reading skill.",
+          "why": [
+            "Word problems are hard because they stack two demands at once:",
+            "A student with a reading/language disability fails at step 1 even with intact math ability; a student with math disability fails at step 2 even when they read fine. Both demands together make word problems disproportionately difficult.",
+            "Common supports: highlight/underline key info, teach problem schema/structures (\"this is a compare problem\"), drawing the problem, verbal rehearsal, and reducing reading load (read-aloud, simpler wording)."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 183
+        },
+        {
+          "n": 2,
+          "topic": "Class discussion in the content area as an instructional method",
+          "answer": "all three — requires a strong classroom management plan, requires students to be in an active learning mode, and requires expert teachers who can teach interactively.",
+          "why": [
+            "Discussion is interactive and student-centered — it doesn't work as a passive activity:",
+            "Strong classroom management plan — norms, routines, and procedures for turn-taking, listening, and respectful disagreement",
+            "Active learning mode — students must engage, contribute, and think aloud rather than sit passively",
+            "Expert interactive teaching — the teacher must skillfully question, probe, wait, redirect, and weave student ideas into content",
+            "Discussion contrasts with lecture (teacher-centered, passive students) and is a high-value but high-demand strategy — often used as the most effective approach for deep content learning when all three conditions exist."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 246
+        },
+        {
+          "n": 3,
+          "topic": "Best way to foster respect for diversity",
+          "answer": "having resources and materials that are instructional and also reflect the diversity of students.",
+          "why": [
+            "The best example is making diversity part of everyday instruction, not a one-time event: books, images, examples, and materials that reflect the students' own cultures and backgrounds (\"mirrors and windows\").",
+            "Mirrors — students see themselves represented → identity and belonging",
+            "Windows — students see others' experiences → perspective-taking and respect",
+            "This is a concrete, teacher-controlled action that embeds respect for diversity into daily learning, which is stronger than isolated \"diversity days,\" decorations alone, or verbal reminders."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 311
+        }
+      ],
+      "questionCount": 3
+    },
+    {
+      "id": "aepa-nes-special-education-competency-0006-reading-and-writing-instruction",
+      "title": "NES Special Education – Competency 0006: Reading & Writing Instruction",
+      "exam": "NES/AEPA Special Education",
+      "competency": "0006 – Reading & Writing Instruction",
+      "status": "in-progress",
+      "folder": "Special Education",
+      "questions": [
+        {
+          "n": 1,
+          "topic": "Method using children's own language to integrate all modes of communication",
+          "answer": "the Language Experience method (Language Experience Approach, LEA).",
+          "why": [
+            "Language Experience Approach (LEA) integrates speaking, listening, reading, and writing around the students' own language and experiences:",
+            "Because the reading material is built from the child's own words and vocabulary, it is highly meaningful and accessible — especially effective for emergent readers, ELLs, and students with disabilities."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 294
+        },
+        {
+          "n": 2,
+          "topic": "Effect of active oral language experiences",
+          "answer": "improve broad reading ability.",
+          "why": [
+            "Oral language is the foundation of literacy. Speaking and listening activities build:",
+            "Vocabulary and word meanings",
+            "Syntax/grammar — how language is structured",
+            "Phonological awareness — sounds within words",
+            "Background knowledge and comprehension",
+            "These transfer directly to reading: children who listen, speak, and discuss more become stronger readers overall — i.e., improved broad reading ability (comprehension, not just decoding)."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 142
+        },
+        {
+          "n": 3,
+          "topic": "Helping students who struggle to put thoughts on paper",
+          "answer": "emphasize the writing process rather than the writing product.",
+          "why": [
+            "The process approach to writing shifts attention from the final product (perfect, graded, error-free) to the process: prewriting → drafting → revising → editing → publishing.",
+            "This reduces anxiety and perfectionism — students with disabilities often freeze because the finished product feels overwhelming; focusing on process lets ideas flow first (brainstorming, graphic organizers, freewriting).",
+            "Teacher supports: conferencing, revision checklists, modeling, and feedback on ideas before conventions — grammar/mechanics come later in the cycle, not as the first gate."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 217
+        }
+      ],
+      "questionCount": 3
+    },
+    {
+      "id": "aepa-nes-special-education-competency-0007-decision-making-problem-solving-and-social-skills",
+      "title": "NES Special Education – Competency 0007: Decision-Making, Problem Solving & Social Skills",
+      "exam": "NES/AEPA Special Education",
+      "competency": "0007 – Decision-Making, Problem Solving & Social Skills",
+      "status": "in-progress",
+      "folder": "Special Education",
+      "questions": [
+        {
+          "n": 1,
+          "topic": "Best question to start a moral dilemma discussion",
+          "answer": "\"What happened in the store and in the parking lot? Why did the boys do this?\"",
+          "why": [
+            "Effective moral dilemma discussions begin with objective, non-judgmental questions that establish the facts and perspectives before any moral judgment:",
+            "Starting with \"should\" or \"was it wrong\" questions too early shuts down thinking; starting with facts and why gets all students engaged and builds a foundation for ethical reasoning that follows."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 532
+        },
+        {
+          "n": 2,
+          "topic": "Least effective strategy for developing problem-solving skills",
+          "answer": "rewarding students for practicing the rules for problem solving.",
+          "why": [
+            "Problem solving is complex, flexible thinking — not rote rule-following. Rewarding students mainly for practicing the rules promotes memorized steps and compliance rather than genuine application, transfer, and reasoning.",
+            "Rewards tied to rule practice can also undermine intrinsic motivation and don't teach students when or how to adapt rules to novel problems.",
+            "More effective strategies: modeling think-alouds, teaching heuristics applied to real problems, guided practice with specific feedback, and collaborative problem solving with discussion of process."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 241
+        },
+        {
+          "n": 3,
+          "topic": "Skill area for a student who doesn't understand teacher directions",
+          "answer": "self-advocacy skills.",
+          "why": [
+            "Self-advocacy = understanding your own needs and speaking up to get help — asking clarifying questions, requesting repetition, telling the teacher \"I don't understand, can you explain differently?\"",
+            "Tabitha's issue isn't lack of ability — it's that she doesn't seek clarification when directions are unclear (possibly due to shyness).",
+            "Self-advocacy is a critical transition/life skill (esp. for older students preparing for post-school life): knowing when and how to request help, accommodations, or clarification."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 246
+        },
+        {
+          "n": 4,
+          "topic": "Best feedback for a student who used a strategy successfully",
+          "answer": "\"I observed that you took the appropriate steps by breathing deeply and remaining calm when you told Eric that you were done playing this afternoon.\"",
+          "why": [
+            "This is specific, descriptive feedback — it names the exact observed behavior (deep breathing, remaining calm, using words) and the specific situation (telling Eric he was done playing).",
+            "It reinforces the strategy the student was taught, connects the behavior to the goal, and makes the praise credible.",
+            "Contrast with vague praise (\"Good job!\") or feedback focused on outcome only — those don't teach the student what specifically worked so they can repeat it."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 382
+        },
+        {
+          "n": 5,
+          "topic": "Best way to build confidence in a middle school student with special needs",
+          "answer": "give students different kinds of instructional activities that they are likely to be successful in completing.",
+          "why": [
+            "Confidence grows from genuine success experiences (self-efficacy): tasks matched to the student's level that they can complete successfully build a track record of accomplishment.",
+            "Offering different kinds of activities (varied modalities/entry points) increases the chance each student finds tasks they can succeed at — while still learning.",
+            "Contrast with weaker approaches: empty praise, lowering standards entirely, or only easy/busy work. The goal is successful completion of meaningful instruction, not artificial encouragement."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 366
+        }
+      ],
+      "questionCount": 5
+    },
+    {
+      "id": "aepa-nes-special-education-competency-0008-functional-skills-and-transition",
+      "title": "NES Special Education – Competency 0008: Functional Skills & Transition",
+      "exam": "NES/AEPA Special Education",
+      "competency": "0008 – Functional Skills & Transition",
+      "status": "in-progress",
+      "folder": "Special Education",
+      "questions": [
+        {
+          "n": 1,
+          "topic": "Intellectual disability classification — second required area",
+          "answer": "adaptive behavior.",
+          "why": [
+            "Intellectual disability requires BOTH (AAIDD/DSM-5 definition):",
+            "Both limitations must appear with onset before age 18. Intellectual functioning alone is not enough to qualify."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 204
+        },
+        {
+          "n": 2,
+          "topic": "What a functional skills curriculum includes",
+          "answer": "all three — buying and preparing food/arranging transportation/family finances, recreation and leisure/health and safety/personal hygiene, and payroll deductions/banking/personal budgets.",
+          "why": [
+            "A functional skills curriculum teaches the real-life daily living skills students need to live as independently as possible:",
+            "Community & home living — buying and preparing food, arranging transportation, family finances",
+            "Personal maintenance — recreation/leisure, health and safety, personal hygiene",
+            "Money management — payroll deductions, banking, personal budgets",
+            "Functional skills differ from academic-only curricula: they prioritize real-world application — practical, measurable skills used in everyday adult life."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 284
+        },
+        {
+          "n": 3,
+          "topic": "What a life skills curriculum blends for transition",
+          "answer": "all three — functional academic and daily living skills, personal and social skills, and career exploration and occupational skills.",
+          "why": [
+            "A life skills curriculum for transition is comprehensive — it must blend:",
+            "These three strands mirror IDEA's transition outcome areas: education/training, employment, and independent living."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 340
+        },
+        {
+          "n": 4,
+          "topic": "Transition curriculum area needing the most parent/family support",
+          "answer": "human sexuality, family life, and parenting.",
+          "why": [
+            "Human sexuality, family life, and parenting are the most values-laden and personal curriculum areas — schools can provide information and skills, but parents/families are the primary teachers of values in these areas.",
+            "Successful delivery requires close home–school partnership: preparation, communication, and reinforcement at home.",
+            "Other areas (career planning, money management, daily living) can succeed largely within the school setting; sexuality/family life cannot — it depends on family cooperation and support."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 364
+        },
+        {
+          "n": 5,
+          "topic": "Transition skill areas Julie needs for her job goal",
+          "answer": "knowing occupational options and planning occupational choices.",
+          "why": [
+            "Julie's goal is a specific occupational move (warehouse laborer → forklift driver) — the relevant transition skills are:",
+            "Knowing occupational options — what jobs exist, their requirements (training/licensing needed for forklift operation)",
+            "Planning occupational choices — mapping the steps: certification/training, applications, advancement path",
+            "Her gap isn't daily-living or personal-social skills — it's occupational knowledge and planning (career exploration/planning strand)."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 385
+        },
+        {
+          "n": 6,
+          "topic": "What transition programs address at the secondary level",
+          "answer": "all three — transition from high school to college, transition from high school to work, and transition from high school to trade school.",
+          "why": [
+            "Transition services prepare students for all post-school pathways, not just one:",
+            "Postsecondary education (college/university)",
+            "Employment (work, supported employment, job training)",
+            "Vocational/technical training (trade school, apprenticeships)",
+            "Under IDEA, transition services (a coordinated set of activities, including instruction and community experiences) must be based on the student's needs, interests, and preferences — starting no later than age 16 (some states require age 14 — verify state rules). The IEP documents measurable postsecondary goals in education/training, employment, and (where appropriate) independent living."
+          ],
+          "hasQuoted": true,
+          "quotedChars": 212
+        }
+      ],
+      "questionCount": 6
+    }
+  ]
+}
