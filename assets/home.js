@@ -12,6 +12,7 @@
     renderMission(site);
     renderStats(site, progress, journal);
     renderPath(progress);
+    renderFunding(progress);
     renderTests(progress.tests);
     renderResume(site);
     renderProjects(site);
@@ -82,6 +83,35 @@ function renderPath(progress) {
       <p>${esc(progress.intro)}</p>
     </div>
     <div class="timeline">${progress.milestones.map(renderMilestone).join("")}</div>`;
+}
+
+function renderFunding(progress) {
+  const f = progress.funding;
+  const el = document.getElementById("funding");
+  if (!el || !f || !(f.pathways || []).length) return;
+  const confirmed = f.pathways.filter(p => p.status === "confirmed").length;
+  el.innerHTML = `
+    <div class="section-head">
+      <h2>Funding pathways</h2>
+      <p>${esc(f.note || "")}</p>
+    </div>
+    <div class="funding-summary card">
+      <div class="stat-inline"><b>~$${Number(f.annualTuition || 0).toLocaleString()}</b><span>tuition per year</span></div>
+      <div class="stat-inline"><b>${f.pathways.length}</b><span>pathways tracked</span></div>
+      <div class="stat-inline"><b>${confirmed}</b><span>confirmed</span></div>
+    </div>
+    <div class="grid two">
+      ${f.pathways.map(p => `
+        <div class="card funding-card">
+          <div class="funding-top">
+            <h3>${esc(p.name)}</h3>
+            <span class="pill ${esc(p.status)}">${esc(fundingStatusLabel(p.status))}</span>
+          </div>
+          <div class="funding-amount">${esc(p.amount)}</div>
+          <p class="small muted">${esc(p.terms || "")}</p>
+          ${p.source ? `<a class="small" href="${esc(p.source)}" target="_blank" rel="noopener">Details →</a>` : ""}
+        </div>`).join("")}
+    </div>`;
 }
 
 function renderTests(tests) {

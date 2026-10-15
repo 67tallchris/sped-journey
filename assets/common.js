@@ -36,6 +36,9 @@ function overallPct(data) {
 function statusLabel(s) {
   return ({ "done": "Complete", "in-progress": "In progress", "planned": "Planned", "goal": "Goal" })[s] || s;
 }
+function fundingStatusLabel(s) {
+  return ({ "confirmed": "Confirmed", "in-progress": "In progress", "applied": "Applied", "exploring": "Exploring", "backup": "Backup" })[s] || s;
+}
 
 function progressRing(el, pctValue) {
   const r = 70, c = 2 * Math.PI * r;

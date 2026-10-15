@@ -102,5 +102,51 @@
     { "name": "NES/AEPA Special Education 601", "status": "studying", "target": "Spring 2027", "score": "", "note": "7 of 8 competencies have study notes; 80-question practice bank built." },
     { "name": "AEPA/NES Elementary Education Subtest I (NT102)", "status": "studying", "target": "TBD", "score": "", "note": "4 competency notes written (phonics, reading, writing, social studies, geography)." },
     { "name": "AEPA/NES Elementary Education Subtest II (NT103)", "status": "studying", "target": "TBD", "score": "", "note": "2 competency notes written (life science, earth & space science)." }
-  ]
+  ],
+  "funding": {
+    "annualTuition": 13000,
+    "note": "Target: cover about $13,000/year of tuition with a stack of the pathways below. The amounts differ — annual, one-time, or after-service — so they don't simply add up.",
+    "pathways": [
+      {
+        "id": "pell",
+        "name": "Federal Pell Grant",
+        "amount": "$1,000",
+        "status": "confirmed",
+        "terms": "Awarded for the current year. Pell is generally need-based; confirm how it applies across the M.Ed. and certification sequence with ASU Financial Aid.",
+        "source": "https://studentaid.gov/understand-aid/types/grants/pell"
+      },
+      {
+        "id": "ata",
+        "name": "Arizona Teachers Academy (ATA)",
+        "amount": "Full tuition + fees",
+        "status": "in-progress",
+        "terms": "Covers tuition and mandatory fees at participating Arizona institutions (ASU, NAU, U of A, community colleges) in exchange for teaching in Arizona one year per year funded. First-come, first-served — currently waitlisted at ASU, so NAU or another ATA-eligible EPP is the backup.",
+        "source": "https://education.asu.edu/ata"
+      },
+      {
+        "id": "title1",
+        "name": "Title I 5-year teaching pathway",
+        "amount": "Up to $17,500",
+        "status": "exploring",
+        "terms": "Commit to 5 complete consecutive years teaching in a Title I / low-income school. For special education, the federal Teacher Loan Forgiveness covers up to $17,500 of eligible loans. Confirm MUSD's process and timing.",
+        "source": "https://studentaid.gov/understand-aid/eligibility/forgiveness/teacher-cancellation"
+      },
+      {
+        "id": "teach",
+        "name": "TEACH Grant",
+        "amount": "Up to $4,000/yr",
+        "status": "exploring",
+        "terms": "Up to $4,000 per year (max $8,000 graduate aggregate) with a 4-year commitment to teach in a low-income school in a high-need field — special education qualifies. Requires a 3.25 GPA or qualifying test score; converts to a loan if the service isn't completed.",
+        "source": "https://studentaid.gov/understand-aid/types/grants/teach"
+      },
+      {
+        "id": "musd",
+        "name": "MUSD hiring package / tuition support",
+        "amount": "TBD",
+        "status": "exploring",
+        "terms": "Ask MUSD HR whether the SPED hiring package includes tuition reimbursement or a stipend (district reimbursements commonly run about $1,500–$5,000/year with a service commitment).",
+        "source": "https://www.maranausd.org/jobs"
+      }
+    ]
+  }
 }

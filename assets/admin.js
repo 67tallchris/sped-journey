@@ -66,6 +66,31 @@ function render() {
           </tbody>
         </table>
       </div>
+
+      <div class="admin-milestone admin-tests">
+        <div class="row"><b style="flex:1">Funding pathways</b>
+          <label class="small muted">Annual tuition
+            <input type="text" id="annualTuition" value="${esc((DATA.funding || {}).annualTuition || "")}" size="8">
+          </label>
+          <button class="btn small secondary" id="addFunding">+ Add pathway</button></div>
+        <table>
+          <thead><tr><th>Pathway</th><th>Amount</th><th>Status</th><th>Terms</th><th>Source</th><th></th></tr></thead>
+          <tbody>
+            ${((DATA.funding || {}).pathways || []).map((p, i) => `
+              <tr>
+                <td><input data-fund="${i}:name" value="${esc(p.name)}"></td>
+                <td><input data-fund="${i}:amount" value="${esc(p.amount)}" size="10"></td>
+                <td><select data-fund="${i}:status">
+                  ${["confirmed", "in-progress", "applied", "exploring", "backup"].map(s =>
+                    `<option value="${s}" ${p.status === s ? "selected" : ""}>${fundingStatusLabel(s)}</option>`).join("")}
+                </select></td>
+                <td><input data-fund="${i}:terms" value="${esc(p.terms)}"></td>
+                <td><input data-fund="${i}:source" value="${esc(p.source || "")}" size="12"></td>
+                <td><button class="btn small secondary" data-del-fund="${i}">×</button></td>
+              </tr>`).join("")}
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <div class="actions" style="margin-top:18px">
@@ -90,6 +115,18 @@ function render() {
     DATA.tests.splice(Number(b.dataset.del), 1);
     render();
   }));
+  document.getElementById("addFunding").addEventListener("click", () => {
+    collect();
+    DATA.funding = DATA.funding || { annualTuition: 13000, note: "", pathways: [] };
+    DATA.funding.pathways = DATA.funding.pathways || [];
+    DATA.funding.pathways.push({ id: "new" + Date.now(), name: "", amount: "", status: "exploring", terms: "", source: "" });
+    render();
+  });
+  el.querySelectorAll("[data-del-fund]").forEach(b => b.addEventListener("click", () => {
+    collect();
+    DATA.funding.pathways.splice(Number(b.dataset.delFund), 1);
+    render();
+  }));
   document.getElementById("save").addEventListener("click", save);
   document.getElementById("download").addEventListener("click", download);
   document.getElementById("reload").addEventListener("click", async () => { DATA = await getProgress(); render(); });
@@ -107,6 +144,17 @@ function collect() {
   document.querySelectorAll("input[data-test]").forEach(inp => {
     const [i, field] = inp.dataset.test.split(":");
     if (DATA.tests[Number(i)]) DATA.tests[Number(i)][field] = inp.value;
+  });
+  if (!DATA.funding) DATA.funding = { annualTuition: 0, note: "", pathways: [] };
+  const at = document.getElementById("annualTuition");
+  if (at) DATA.funding.annualTuition = Number(at.value) || 0;
+  document.querySelectorAll("input[data-fund]").forEach(inp => {
+    const [i, field] = inp.dataset.fund.split(":");
+    if (DATA.funding.pathways[Number(i)]) DATA.funding.pathways[Number(i)][field] = inp.value;
+  });
+  document.querySelectorAll("select[data-fund]").forEach(sel => {
+    const [i, field] = sel.dataset.fund.split(":");
+    if (DATA.funding.pathways[Number(i)]) DATA.funding.pathways[Number(i)][field] = sel.value;
   });
   DATA.updated = new Date().toISOString().slice(0, 10);
 }
