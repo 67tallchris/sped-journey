@@ -74,7 +74,14 @@ async function selectTest(test) {
   currentTest = test;
   localStorage.setItem(LAST_KEY, test.id);
   try {
-    const url = test.private ? test.endpoint : test.file + "?v=" + Date.now();
+    let url;
+    if (test.private) {
+      if (!test.endpoint) throw new Error("This private test is missing its endpoint");
+      url = test.endpoint;
+    } else {
+      if (!test.file) throw new Error("This test is missing its data file");
+      url = test.file + "?v=" + Date.now();
+    }
     const data = await getJSON(url);
     questions = (Array.isArray(data) ? data : (data.questions || [])).sort((a, b) => a.number - b.number);
   } catch (err) {
